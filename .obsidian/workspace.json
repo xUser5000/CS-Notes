@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "adb89d274efc52ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "78eab834f7b88c8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4961ebe884ee3e58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Architecture/Computer Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63741d70550c20ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7a8c80f6dbc17e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8af8c2af72c0fd50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae9075514cb77090",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "stack",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e1f98b3f7c011681",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d7aa9a1709dd31bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8eaa21cac1885891",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2622072277cc470b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Architecture/Computer Architecture.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "af7fdf628b70ade4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computer Architecture/Computer Architecture.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a343940180aab0df",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "e8b7742d8fd7f9bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Computer Architecture/Computer Architecture.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4961ebe884ee3e58",
+  "lastOpenFiles": [
+    "Information Security/Stack Buffer Overflow.md",
+    "Information Security/Return Oriented Programming.md",
+    "Information Security/Information Security.md",
+    "Computer Architecture/Machine-level Programming/Overview of assembly x86.md",
+    "Computer Architecture/Machine-level Programming/Data Structures/Structs.md",
+    "Computer Architecture/Machine-level Programming/Data Structures/Data Structures.md",
+    "Computer Architecture/Machine-level Programming/Data Structures/Arrays.md",
+    "Computer Architecture/Machine-level Programming/Procedures.md",
+    "Computer Architecture/Computer Architecture.md",
+    "Computer Architecture/Ints/Ints.md",
+    "Computer Architecture/Ints/Byte Ordering.md",
+    "Computer Architecture/Memory Layout.md",
+    "Information Security",
+    "Computer Architecture/Images/Memory Layout.png",
+    "Computer Architecture/Images/Structs representation in memory.png",
+    "Computer Architecture/Images/Row-major ordering of 2d arrays.png",
+    "Computer Architecture/Machine-level Programming/Data Structures",
+    "Computer Architecture/Ints/Bit Shifting.md",
+    "Pasted image 20230706202527.png",
+    "Computer Architecture/Floats/Floats.md",
+    "Computer Architecture/Images/Visualization of IEEE floating-point encoding.png",
+    "Computer Architecture/Images/State visible to the machine-level programmer.png",
+    "Computer Architecture/Machine-level Programming",
+    "Computer Architecture/Floats/IEEE Floating-Point Multiplication.md",
+    "Computer Architecture/Floats/IEEE Floating-Point.md",
+    "Computer Architecture/Floats/IEEE Floating-Point Addition.md",
+    "Computer Architecture/Floats/Fractional Binary Number.md",
+    "Computer Architecture/Images/Encoding of Fractional Binary Numbers.png",
+    "Computer Architecture/Images/Encoding of IEEE floating-point numbers.png",
+    "Computer Architecture/Ints/Integer Encoding/Two's Complement.md",
+    "Computer Architecture/Ints/Integer Encoding/Integer Encoding.md",
+    "Computer Architecture/Ints/Integer Encoding/Unsigned.md",
+    "Computer Architecture/Ints/Integer Expansion.md",
+    "Computer Architecture/Ints/Negation.md",
+    "Computer Architecture/Images/Big Endian vs Little Endian.png",
+    "Pasted image 20230622155034.png",
+    "Computer Architecture/Ints/Integer Encoding",
+    "Computer Architecture/Images",
+    "Computer Architecture/Floats",
+    "Computer Architecture/Ints",
+    "Data Representation.md",
+    "Omar - Problem Solving.md",
+    "Coding Interview University.md",
+    "Computer Architecture"
+  ]
+}
