@@ -1,4 +1,5 @@
 # Topics
+- [[CPU Design]]
 - Data Representation & Manipulation
 	- [[Ints]]
 	- [[Floats]]

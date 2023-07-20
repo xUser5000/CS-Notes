@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "78eab834f7b88c8c",
+        "id": "33c3045f938a1fb9",
         "type": "tabs",
         "children": [
           {
-            "id": "4961ebe884ee3e58",
+            "id": "468efae9b2ac7439",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/Computer Architecture.md",
+                "file": "Performance optimization/Source Code Optimization/Source Code Optimization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Architecture/Computer Architecture.md",
+                "file": "Performance optimization/Source Code Optimization/Source Code Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Architecture/Computer Architecture.md",
+                "file": "Performance optimization/Source Code Optimization/Source Code Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Architecture/Computer Architecture.md"
+                "file": "Performance optimization/Source Code Optimization/Source Code Optimization.md"
               }
             }
           }
@@ -147,21 +147,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4961ebe884ee3e58",
+  "active": "468efae9b2ac7439",
   "lastOpenFiles": [
-    "Information Security/Stack Buffer Overflow.md",
-    "Information Security/Return Oriented Programming.md",
-    "Information Security/Information Security.md",
+    "Performance optimization/Source Code Optimization/Loop Unrolling.md",
+    "Computer Architecture/CPU Design/CPU Design.md",
+    "Computer Architecture/CPU Design/Modern CPU Design.png",
+    "Performance optimization/Source Code Optimization/Source Code Optimization.md",
+    "Performance optimization/Compiler-level Optimization/Compiler-level Optimization.md",
+    "Performance optimization/Compiler-level Optimization/Procedure calling.md",
+    "Performance optimization/Compiler-level Optimization/Memory aliasing.md",
+    "Performance optimization/Compiler-level Optimization/Optimization blockers.md",
+    "Performance optimization/Performance Optimization.md",
+    "Performance optimization/Source Code Optimization/Abstracting Common Sub-expressions.md",
+    "Performance optimization/Source Code Optimization/Abstracting Common Sub-expressions Example.png",
+    "Performance optimization/Source Code Optimization/Strength Reduction.md",
+    "Performance optimization/Source Code Optimization/Strength Reduction Example.png",
+    "Performance optimization/Source Code Optimization/Code Motion.md",
+    "Performance optimization/Source Code Optimization/Code Motion Example.png",
+    "Computer Security/Computer Security.md",
+    "Computer Security/Return Oriented Programming.md",
+    "Computer Security/Stack Buffer Overflow.md",
+    "Computer Architecture/Computer Architecture.md",
+    "Computer Architecture/CPU Design",
+    "Computer Architecture/CPU",
+    "Performance optimization/Compiler-level Optimization/Untitled",
+    "Performance optimization/Compiler-level Optimization",
+    "Performance optimization/Source Code Optimization",
+    "Computer Architecture/Machine-level Programming/Procedures.md",
+    "Performance optimization",
     "Computer Architecture/Machine-level Programming/Overview of assembly x86.md",
     "Computer Architecture/Machine-level Programming/Data Structures/Structs.md",
     "Computer Architecture/Machine-level Programming/Data Structures/Data Structures.md",
     "Computer Architecture/Machine-level Programming/Data Structures/Arrays.md",
-    "Computer Architecture/Machine-level Programming/Procedures.md",
-    "Computer Architecture/Computer Architecture.md",
     "Computer Architecture/Ints/Ints.md",
     "Computer Architecture/Ints/Byte Ordering.md",
     "Computer Architecture/Memory Layout.md",
-    "Information Security",
+    "Computer Security",
     "Computer Architecture/Images/Memory Layout.png",
     "Computer Architecture/Images/Structs representation in memory.png",
     "Computer Architecture/Images/Row-major ordering of 2d arrays.png",
@@ -173,25 +194,6 @@
     "Computer Architecture/Images/State visible to the machine-level programmer.png",
     "Computer Architecture/Machine-level Programming",
     "Computer Architecture/Floats/IEEE Floating-Point Multiplication.md",
-    "Computer Architecture/Floats/IEEE Floating-Point.md",
-    "Computer Architecture/Floats/IEEE Floating-Point Addition.md",
-    "Computer Architecture/Floats/Fractional Binary Number.md",
-    "Computer Architecture/Images/Encoding of Fractional Binary Numbers.png",
-    "Computer Architecture/Images/Encoding of IEEE floating-point numbers.png",
-    "Computer Architecture/Ints/Integer Encoding/Two's Complement.md",
-    "Computer Architecture/Ints/Integer Encoding/Integer Encoding.md",
-    "Computer Architecture/Ints/Integer Encoding/Unsigned.md",
-    "Computer Architecture/Ints/Integer Expansion.md",
-    "Computer Architecture/Ints/Negation.md",
-    "Computer Architecture/Images/Big Endian vs Little Endian.png",
-    "Pasted image 20230622155034.png",
-    "Computer Architecture/Ints/Integer Encoding",
-    "Computer Architecture/Images",
-    "Computer Architecture/Floats",
-    "Computer Architecture/Ints",
-    "Data Representation.md",
-    "Omar - Problem Solving.md",
-    "Coding Interview University.md",
-    "Computer Architecture"
+    "Computer Architecture/Ints/Integer Encoding"
   ]
 }
