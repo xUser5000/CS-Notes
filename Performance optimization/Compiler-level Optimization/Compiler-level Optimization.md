@@ -11,7 +11,7 @@
 
 ### Limitations
 - Don't usually improve asymptotic complexity
-- Have difficulty overcoming [[Optimization blockers]]
+- Have difficulty overcoming [[Optimization blockers]]:
 	- [[Memory aliasing]]
 	- [[Procedure calling]]
 - Analysis is based on static information

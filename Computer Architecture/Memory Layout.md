@@ -4,13 +4,13 @@
 	- The Heap segment: contains data that is dynamically allocated using `malloc()`, `calloc()`, `free()`.
 	- The Data segment: contains statically allocated data (e.g, global variables, static variables, and string constants).
 	- Text / Shared libraries
-		- contains read-only executable machine instructions.
+		- Contains read-only executable machine instructions.
 		- Usually, it's shareable so that multiples instances of the same program can be run without needing to duplicate its code segment.
 
 # FAQ
 - Why is the default #call_stack size limited? [2]
 	- To support creation of a large number of threads in multi-threaded programs.
-	- To fit entirely in the CPU's cache.
+	- To fit entirely in the [[CPU cache]].
 		- Allocating large objects on the #call_stack would make it impossible on most machines to have them loaded at once into cache, which pretty much defeats the purpose of the #call_stack.
 	- It's an error detection and containment mechanism.
 		1. If the #call_stack grows out of bounds (e.g. a lot of recursive calls), it is almost always an error in the design and/or the behavior of the application.
