@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "14dc5a8537abf7aa",
+        "id": "598199fcbc12aa13",
         "type": "tabs",
         "children": [
           {
-            "id": "cfaa57a2804fa954",
+            "id": "38e0a9c25647e4ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Architecture/Memory Hierarchy/Memory Hierarchy.md",
+                "file": "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "a00150da917aab3c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 274.5
   },
   "right": {
     "id": "d7aa9a1709dd31bb",
@@ -94,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache.md"
+              }
             }
           }
         ],
@@ -152,26 +147,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a00150da917aab3c",
+  "active": "38e0a9c25647e4ea",
   "lastOpenFiles": [
-    "Computer Architecture/Memory Hierarchy/Memory Hierarchy.md",
-    "Computer Architecture/Memory Hierarchy/Memory Hierarchy.png",
+    "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache.md",
+    "Performance optimization/Source Code Optimization/Source Code Optimization.md",
+    "Computer Architecture/Memory Hierarchy/CPU Cache",
+    "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache hierarchy - Intel core i7.png",
     "Computer Architecture/Memory Hierarchy/Cache.md",
-    "Computer Architecture/Memory Hierarchy/Untitled",
-    "Computer Architecture/Memory Layout.md",
-    "Computer Architecture/Floats/Fractional Binary Number.md",
+    "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache Organization.png",
+    "Computer Architecture/Memory Hierarchy/CPU Cache rganization 1.png",
+    "Pasted image 20230724202951.png",
+    "Computer Architecture/Memory Hierarchy/Storage Technologies/Volatile Memory.md",
+    "Computer Architecture/Memory Hierarchy/Storage Technologies/Non-volatile Memory.md",
+    "Computer Architecture/Memory Hierarchy/Storage Technologies/SRAM vs DRAM.png",
+    "Computer Architecture/Memory Hierarchy/Memory Hierarchy.md",
     "Computer Architecture/Computer Architecture.md",
+    "Computer Architecture/Memory Layout.md",
+    "Computer Architecture/Memory Hierarchy/Memory Hierarchy.png",
+    "Computer Architecture/Floats/Fractional Binary Number.md",
     "Computer Architecture/Floats/Floats.md",
     "Computer Architecture/Floats/IEEE Floating-Point.md",
     "Computer Architecture/Ints/Ints.md",
     "Computer Architecture/Memory Hierarchy/Disks/Hard Disk Drives (HDD).md",
     "Computer Architecture/Memory Hierarchy/Disks/Disks.md",
-    "Computer Architecture/Memory Hierarchy/Storage Technologies/Non-volatile Memory.md",
-    "Computer Architecture/Memory Hierarchy/Storage Technologies/Volatile Memory.md",
     "Performance optimization/Performance Optimization.md",
     "Computer Architecture/CPU Design/CPU Design.md",
     "Performance optimization/Source Code Optimization/Loop Unrolling.md",
-    "Performance optimization/Source Code Optimization/Source Code Optimization.md",
     "Performance optimization/Source Code Optimization/Abstracting Common Sub-expressions.md",
     "Performance optimization/Source Code Optimization/Strength Reduction.md",
     "Performance optimization/Source Code Optimization/Code Motion.md",
@@ -180,19 +181,13 @@
     "Performance optimization/Compiler-level Optimization/Memory aliasing.md",
     "Performance optimization/Compiler-level Optimization/Procedure calling.md",
     "Computer Security/Stack Buffer Overflow.md",
-    "Computer Security/Computer Security.md",
     "Computer Architecture/Memory Hierarchy/Disks/SSD performance characteristics.png",
     "Computer Architecture/Memory Hierarchy/Disks/Pasted image 20230723134654 1.png",
     "Computer Architecture/Memory Hierarchy/Disks/What's inside an SSD.png",
     "Computer Architecture/Memory Hierarchy/Storage Technologies",
     "Computer Architecture/Memory Hierarchy/Disks",
     "Computer Architecture/Memory Hierarchy/Disks/Disk capacity formula.png",
-    "Computer Architecture/Memory Hierarchy/Disks/What's inside an HDD.png",
-    "Computer Architecture/Memory Hierarchy/Storage Technologies/SRAM vs DRAM.png",
-    "Computer Architecture/Memory Hierarchy/Access times in memory hierarchy.png",
     "Computer Architecture/Memory Hierarchy",
-    "Computer Architecture/CPU Design/Modern CPU Design.png",
-    "Performance optimization/Source Code Optimization/Abstracting Common Sub-expressions Example.png",
     "Computer Architecture/CPU Design",
     "Computer Architecture/CPU",
     "Performance optimization/Compiler-level Optimization/Untitled",

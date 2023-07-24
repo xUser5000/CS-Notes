@@ -6,6 +6,7 @@
 	- [[Abstracting Common Sub-expressions]]
 	- [[Loop Unrolling]]
 	- Vectorized computations using SIMD (single instruction, multiple data).
+	- Writing cache-friendly ([[CPU Cache]]) code that has good locality ([[Locality of reference]]).
 
 # Sources
 - [CMU Introduction to Computer Systems - Lecture 10](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b1da67c-2980-4b96-82e7-2f99139a2c0d)
