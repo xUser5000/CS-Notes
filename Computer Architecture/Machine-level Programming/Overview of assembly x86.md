@@ -1,7 +1,4 @@
 # Explanation
-
-## Overview
-- Definitions:
 - *Instruction Set Architecture*: The parts of a processor design that one needs to understand to write assembly/machine code.
 		- e.g, Intel x86, IA32, x86-64, ARM
 	- *Micro-architecture*: The hardware implementation of the instruction set architecture.
