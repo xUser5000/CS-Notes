@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "bdb8a0641296dc6b",
+        "id": "64bf282b2d75f27b",
         "type": "tabs",
         "children": [
           {
-            "id": "ac8f8cdffcf5c266",
+            "id": "4739c05449c098bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Operating Systems/Operating Systems.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Operating Systems/Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Operating Systems/Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Operating Systems/Operating Systems.md"
+              }
             }
           }
         ],
@@ -139,11 +147,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac8f8cdffcf5c266",
+  "active": "8af8c2af72c0fd50",
   "lastOpenFiles": [
+    "Operating Systems/Exceptions.md",
+    "Operating Systems/Process.md",
+    "Computer Architecture/Machine-level Programming/Overview of assembly x86.md",
+    "Operating Systems/System Calls.md",
+    "[[System.md",
+    "[System.md",
+    "System.md",
+    "Operating Systems/Exception Tables.png",
+    "Operating Systems/Exception Control flow.png",
+    "Operating Systems/Operating Systems.md",
+    "Operating Systems",
     "Compilers/GCC.md",
     "Compilers/Linking.md",
-    "Computer Architecture/Machine-level Programming/Overview of assembly x86.md",
     "Computer Architecture/Memory Layout.md",
     "Computer Architecture/Computer Architecture.md",
     "Compilers/Untitled",
@@ -169,23 +187,13 @@
     "Computer Architecture/Floats/Floats.md",
     "Computer Architecture/Floats/IEEE Floating-Point.md",
     "Computer Architecture/Ints/Ints.md",
-    "Computer Architecture/CPU Design/CPU Design.md",
-    "Performance optimization/Source Code Optimization/Loop Unrolling.md",
-    "Performance optimization/Source Code Optimization/Abstracting Common Sub-expressions.md",
-    "Performance optimization/Source Code Optimization/Strength Reduction.md",
-    "Performance optimization/Source Code Optimization/Code Motion.md",
-    "Performance optimization/Compiler-level Optimization/Compiler-level Optimization.md",
-    "Performance optimization/Compiler-level Optimization/Optimization blockers.md",
     "Computer Architecture/Memory Hierarchy/Disks/SSD performance characteristics.png",
     "Computer Architecture/Memory Hierarchy/Disks/Pasted image 20230723134654 1.png",
-    "Computer Architecture/Memory Hierarchy/Disks/What's inside an SSD.png",
     "Computer Architecture/Memory Hierarchy/Storage Technologies",
     "Computer Architecture/Memory Hierarchy/Disks",
-    "Computer Architecture/Memory Hierarchy/Disks/Disk capacity formula.png",
     "Computer Architecture/Memory Hierarchy",
     "Computer Architecture/CPU Design",
     "Computer Architecture/CPU",
-    "Performance optimization/Compiler-level Optimization/Untitled",
-    "Performance optimization/Compiler-level Optimization"
+    "Performance optimization/Compiler-level Optimization/Untitled"
   ]
 }
