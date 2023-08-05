@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "64bf282b2d75f27b",
+        "id": "ad2acb6a1e4133ad",
         "type": "tabs",
         "children": [
           {
-            "id": "4739c05449c098bd",
+            "id": "9a896bb03a780d3d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/Operating Systems.md",
+                "file": "Domain Knowledge/Financial Technology/PCI Compliance.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/Operating Systems.md",
+                "file": "Domain Knowledge/Financial Technology/PCI Compliance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/Operating Systems.md",
+                "file": "Domain Knowledge/Financial Technology/PCI Compliance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,8 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/Operating Systems.md"
+                "file": "Domain Knowledge/Financial Technology/PCI Compliance.md"
               }
+            }
+          },
+          {
+            "id": "30c006f7274ef30b",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "8864a74c10558028",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
             }
           }
         ],
@@ -144,26 +160,37 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "juggl:Juggl global graph": false
     }
   },
-  "active": "8af8c2af72c0fd50",
+  "active": "9a896bb03a780d3d",
   "lastOpenFiles": [
+    "Domain Knowledge/Financial Technology/Financial Technology.md",
+    "Domain Knowledge/Financial Technology/PCI Compliance.md",
+    "Distributed Systems/Distributed Systems.md",
+    "Domain Knowledge/Domain Knowledge.md",
+    "Distributed Systems/Dis",
+    "Distributed Systems",
+    "Domain Knowledge/Financial Technology",
+    "Domain Knowledge",
+    "Computer Architecture/Ints/Ints.md",
+    "Computer Architecture/CPU Design/CPU Design.md",
+    "Computer Architecture/Computer Architecture.md",
     "Operating Systems/Exceptions.md",
+    "Operating Systems/Operating Systems.md",
     "Operating Systems/Process.md",
-    "Computer Architecture/Machine-level Programming/Overview of assembly x86.md",
     "Operating Systems/System Calls.md",
+    "Computer Architecture/Machine-level Programming/Overview of assembly x86.md",
     "[[System.md",
     "[System.md",
     "System.md",
     "Operating Systems/Exception Tables.png",
     "Operating Systems/Exception Control flow.png",
-    "Operating Systems/Operating Systems.md",
     "Operating Systems",
     "Compilers/GCC.md",
     "Compilers/Linking.md",
     "Computer Architecture/Memory Layout.md",
-    "Computer Architecture/Computer Architecture.md",
     "Compilers/Untitled",
     "Compilers",
     "Performance optimization/Source Code Optimization/Source Code Optimization.md",
@@ -177,23 +204,13 @@
     "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache.md",
     "Computer Architecture/Memory Hierarchy/CPU Cache",
     "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache hierarchy - Intel core i7.png",
-    "Computer Architecture/Memory Hierarchy/Cache.md",
     "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache Organization.png",
     "Computer Architecture/Memory Hierarchy/CPU Cache rganization 1.png",
     "Pasted image 20230724202951.png",
-    "Computer Architecture/Memory Hierarchy/Memory Hierarchy.md",
     "Computer Architecture/Memory Hierarchy/Memory Hierarchy.png",
-    "Computer Architecture/Floats/Fractional Binary Number.md",
-    "Computer Architecture/Floats/Floats.md",
-    "Computer Architecture/Floats/IEEE Floating-Point.md",
-    "Computer Architecture/Ints/Ints.md",
     "Computer Architecture/Memory Hierarchy/Disks/SSD performance characteristics.png",
     "Computer Architecture/Memory Hierarchy/Disks/Pasted image 20230723134654 1.png",
     "Computer Architecture/Memory Hierarchy/Storage Technologies",
-    "Computer Architecture/Memory Hierarchy/Disks",
-    "Computer Architecture/Memory Hierarchy",
-    "Computer Architecture/CPU Design",
-    "Computer Architecture/CPU",
-    "Performance optimization/Compiler-level Optimization/Untitled"
+    "Computer Architecture/Memory Hierarchy/Disks"
   ]
 }

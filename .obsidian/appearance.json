@@ -2,5 +2,6 @@
   "accentColor": "",
   "enabledCssSnippets": [
     "big-math"
-  ]
+  ],
+  "cssTheme": "Atom"
 }
