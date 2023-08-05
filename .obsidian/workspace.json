@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ad2acb6a1e4133ad",
+        "id": "43f6b4a2d60f7a7c",
         "type": "tabs",
         "children": [
           {
-            "id": "9a896bb03a780d3d",
+            "id": "b7a35724f980d2af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domain Knowledge/Financial Technology/PCI Compliance.md",
+                "file": "Operating Systems/Operating Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Domain Knowledge/Financial Technology/PCI Compliance.md",
+                "file": "Operating Systems/Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Domain Knowledge/Financial Technology/PCI Compliance.md",
+                "file": "Operating Systems/Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Domain Knowledge/Financial Technology/PCI Compliance.md"
+                "file": "Operating Systems/Operating Systems.md"
               }
             }
           },
@@ -164,11 +164,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "9a896bb03a780d3d",
+  "active": "b7a35724f980d2af",
   "lastOpenFiles": [
+    "Distributed Systems/Distributed Systems.md",
     "Domain Knowledge/Financial Technology/Financial Technology.md",
     "Domain Knowledge/Financial Technology/PCI Compliance.md",
-    "Distributed Systems/Distributed Systems.md",
     "Domain Knowledge/Domain Knowledge.md",
     "Distributed Systems/Dis",
     "Distributed Systems",
