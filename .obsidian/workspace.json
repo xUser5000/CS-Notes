@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b7a35724f980d2af",
+            "id": "c9307a3dc48026a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/Operating Systems.md",
+                "file": "Operating Systems/Virtualization/Virtualization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0aea1974fdba6d10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating Systems/Virtualization/Process.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/Operating Systems.md",
+                "file": "Operating Systems/Virtualization/Virtualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/Operating Systems.md",
+                "file": "Operating Systems/Virtualization/Virtualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/Operating Systems.md"
+                "file": "Operating Systems/Virtualization/Virtualization.md"
               }
             }
           },
@@ -164,8 +176,14 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "b7a35724f980d2af",
+  "active": "c9307a3dc48026a3",
   "lastOpenFiles": [
+    "Operating Systems/Virtualization/Process.md",
+    "Operating Systems/Virtualization/Virtualization.md",
+    "Operating Systems/Operating Systems.md",
+    "Computer Architecture/Memory Layout.md",
+    "Operating Systems/Virtualization/System Calls.md",
+    "Operating Systems/Virtualization",
     "Distributed Systems/Distributed Systems.md",
     "Domain Knowledge/Financial Technology/Financial Technology.md",
     "Domain Knowledge/Financial Technology/PCI Compliance.md",
@@ -178,9 +196,6 @@
     "Computer Architecture/CPU Design/CPU Design.md",
     "Computer Architecture/Computer Architecture.md",
     "Operating Systems/Exceptions.md",
-    "Operating Systems/Operating Systems.md",
-    "Operating Systems/Process.md",
-    "Operating Systems/System Calls.md",
     "Computer Architecture/Machine-level Programming/Overview of assembly x86.md",
     "[[System.md",
     "[System.md",
@@ -190,7 +205,6 @@
     "Operating Systems",
     "Compilers/GCC.md",
     "Compilers/Linking.md",
-    "Computer Architecture/Memory Layout.md",
     "Compilers/Untitled",
     "Compilers",
     "Performance optimization/Source Code Optimization/Source Code Optimization.md",
@@ -200,8 +214,6 @@
     "Computer Architecture/Memory Hierarchy/Storage Technologies/Non-volatile Memory.md",
     "Computer Architecture/Memory Hierarchy/Disks/Solid State Drives (SSD).md",
     "Computer Architecture/Memory Hierarchy/Disks/Hard Disk Drives (HDD).md",
-    "Computer Architecture/Memory Hierarchy/Disks/Disks.md",
-    "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache.md",
     "Computer Architecture/Memory Hierarchy/CPU Cache",
     "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache hierarchy - Intel core i7.png",
     "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache Organization.png",
@@ -210,7 +222,6 @@
     "Computer Architecture/Memory Hierarchy/Memory Hierarchy.png",
     "Computer Architecture/Memory Hierarchy/Disks/SSD performance characteristics.png",
     "Computer Architecture/Memory Hierarchy/Disks/Pasted image 20230723134654 1.png",
-    "Computer Architecture/Memory Hierarchy/Storage Technologies",
-    "Computer Architecture/Memory Hierarchy/Disks"
+    "Computer Architecture/Memory Hierarchy/Storage Technologies"
   ]
 }
