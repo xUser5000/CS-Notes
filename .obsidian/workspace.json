@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/Virtualization/CPU Virtualization/Limited Direct Execution.md",
+                "file": "Operating Systems/Virtualization/CPU Virtualization/CPU Virtualization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e1333f69da63afbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operating Systems/Virtualization/CPU Virtualization/Multi-Level Feedback Queue.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 288.5
   },
   "right": {
     "id": "d7aa9a1709dd31bb",
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/Virtualization/CPU Virtualization/Limited Direct Execution.md",
+                "file": "Operating Systems/Virtualization/CPU Virtualization/CPU Virtualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/Virtualization/CPU Virtualization/Limited Direct Execution.md",
+                "file": "Operating Systems/Virtualization/CPU Virtualization/CPU Virtualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/Virtualization/CPU Virtualization/Limited Direct Execution.md"
+                "file": "Operating Systems/Virtualization/CPU Virtualization/CPU Virtualization.md"
               }
             }
           },
@@ -166,10 +178,12 @@
   },
   "active": "5a87668694118dbd",
   "lastOpenFiles": [
-    "Operating Systems/Virtualization/CPU Virtualization/Scheduling.md",
-    "Operating Systems/Virtualization/Process.md",
+    "Operating Systems/Virtualization/CPU Virtualization/Multi-Level Feedback Queue.md",
+    "Operating Systems/Virtualization/CPU Virtualization/Scheduling Algorithm.md",
     "Operating Systems/Virtualization/CPU Virtualization/CPU Virtualization.md",
     "Operating Systems/Virtualization/CPU Virtualization/Limited Direct Execution.md",
+    "log.txt",
+    "Operating Systems/Virtualization/Process.md",
     "Operating Systems/Virtualization/Virtualization.md",
     "Operating Systems/Virtualization/CPU Virtualization",
     "Operating Systems/Virtualization/Context Switch.md",
@@ -202,9 +216,7 @@
     "Compilers/Untitled",
     "Compilers",
     "Performance optimization/Source Code Optimization/Source Code Optimization.md",
-    "Performance optimization/Performance Optimization.md",
     "Computer Architecture/Memory Hierarchy/Storage Technologies/SRAM vs DRAM.png",
-    "Computer Architecture/Memory Hierarchy/CPU Cache",
     "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache hierarchy - Intel core i7.png",
     "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache Organization.png",
     "Computer Architecture/Memory Hierarchy/CPU Cache rganization 1.png",
