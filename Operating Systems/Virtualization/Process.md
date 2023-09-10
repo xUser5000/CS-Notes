@@ -1,7 +1,7 @@
 # Explanation
 - A *process* is an instance of a running program.
 - A *program* is just some silent bits that sit on the disk.
-- A process provide two main abstractions:
+- A process provides two main abstractions:
 	- A logical control flow:
 		- Each program seems to have exclusive access to the CPU.
 		- This is provided by [[CPU Virtualization]].
