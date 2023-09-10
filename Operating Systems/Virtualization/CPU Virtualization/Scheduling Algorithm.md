@@ -6,9 +6,8 @@
 	- Shortest Time-to-Completion First (STCF)
 	- Round Robin (RR)
 	- [[Multi-Level Feedback Queue]] (MLFQ)
-	- Completely Fair Scheduler (CFS)
+	- [[Completely Fair Scheduler]] (CFS)
 		- Used by Linux
-- Characteristics:
-	- 
+	- O(1) Scheduler
 # Sources
 - OSTEP Chapter 7 - "Scheduling: Introduction"

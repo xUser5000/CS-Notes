@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2a4e387c6ad669c6",
+        "id": "ea5422b930dc9db9",
         "type": "tabs",
         "children": [
           {
-            "id": "5a87668694118dbd",
+            "id": "87b1abeb37902e44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/Virtualization/CPU Virtualization/CPU Virtualization.md",
+                "file": "Operating Systems/Virtualization/CPU Virtualization/Scheduling Algorithm.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e1333f69da63afbb",
+            "id": "f27d8b90b510f830",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems/Virtualization/CPU Virtualization/Multi-Level Feedback Queue.md",
+                "file": "Operating Systems/Virtualization/CPU Virtualization/Completely Fair Scheduler.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stack",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems/Virtualization/CPU Virtualization/CPU Virtualization.md",
+                "file": "Operating Systems/Virtualization/CPU Virtualization/Completely Fair Scheduler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/Virtualization/CPU Virtualization/CPU Virtualization.md",
+                "file": "Operating Systems/Virtualization/CPU Virtualization/Completely Fair Scheduler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems/Virtualization/CPU Virtualization/CPU Virtualization.md"
+                "file": "Operating Systems/Virtualization/CPU Virtualization/Completely Fair Scheduler.md"
               }
             }
           },
@@ -176,11 +177,13 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "5a87668694118dbd",
+  "active": "f27d8b90b510f830",
   "lastOpenFiles": [
-    "Operating Systems/Virtualization/CPU Virtualization/Multi-Level Feedback Queue.md",
     "Operating Systems/Virtualization/CPU Virtualization/Scheduling Algorithm.md",
+    "Operating Systems/Virtualization/CPU Virtualization/Completely Fair Scheduler.md",
     "Operating Systems/Virtualization/CPU Virtualization/CPU Virtualization.md",
+    "Computer Architecture/Memory Layout.md",
+    "Operating Systems/Virtualization/CPU Virtualization/Multi-Level Feedback Queue.md",
     "Operating Systems/Virtualization/CPU Virtualization/Limited Direct Execution.md",
     "log.txt",
     "Operating Systems/Virtualization/Process.md",
@@ -190,7 +193,6 @@
     "Operating Systems/Virtualization/System Calls.md",
     "Computer Architecture/Machine-level Programming/Procedures.md",
     "Operating Systems/Operating Systems.md",
-    "Computer Architecture/Memory Layout.md",
     "Operating Systems/Virtualization",
     "Distributed Systems/Distributed Systems.md",
     "Domain Knowledge/Financial Technology/Financial Technology.md",
@@ -215,7 +217,6 @@
     "Compilers/Linking.md",
     "Compilers/Untitled",
     "Compilers",
-    "Performance optimization/Source Code Optimization/Source Code Optimization.md",
     "Computer Architecture/Memory Hierarchy/Storage Technologies/SRAM vs DRAM.png",
     "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache hierarchy - Intel core i7.png",
     "Computer Architecture/Memory Hierarchy/CPU Cache/CPU Cache Organization.png",
