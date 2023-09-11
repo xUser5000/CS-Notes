@@ -1,0 +1,8 @@
+workspace*
+appearance.json
+graph.json
+.trash
+log.txt
+
+#Prevent displaying photos in Google Photos
+.nomedia
