@@ -26,6 +26,7 @@
 	- Protection: no process can generate memory references outside of its own #address_space.
 - Disadvantages:
 	- Assumes that all processes are of the same size and that size is fixed.
+	- Can't run a process when its entire address space does not fit in memory.
 	- *Internal Fragmentation*: there are a lot of wasted space between the heap and the stack.
 
 # Sources
