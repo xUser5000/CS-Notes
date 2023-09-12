@@ -21,7 +21,7 @@
 		- The part of the CPU that helps with address translation is the *Memory Management Unit* (MMU).
 		- Dynamic Relocation can be implemented in different ways:
 			- [[Base and Bounds]]
-			- ...
+			- [[Segmentation]]
 
 # Sources
 - OSTEP Chapter 13 - "The Abstraction: Address Spaces"
