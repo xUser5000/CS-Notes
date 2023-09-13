@@ -22,6 +22,7 @@
 		- Dynamic Relocation can be implemented in different ways:
 			- [[Base and Bounds]]
 			- [[Segmentation]]
+			- [[Paging]]
 
 # Sources
 - OSTEP Chapter 13 - "The Abstraction: Address Spaces"
