@@ -17,5 +17,10 @@
 		- Write-allocate: load into cache and update it.
 		- No write-allocate: write straight to main memory.
 
+# FAQ
+- Why don’t we just make bigger caches and keep all of our data in them?
+	- If you want a fast cache, it has to be small.
+	- Any large cache by definition is slow, and thus defeats the purpose. (source: OSTEP Chapter 19 - "Paging: Faster Translations (TLBs)")
 # Sources
 - [CMU Introduction to computer systems - Lecture 12](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3395b86e-0bd4-425d-8872-251e714acdd7)
+- OSTEP Chapter 19 - "Paging: Faster Translations (TLBs)"
