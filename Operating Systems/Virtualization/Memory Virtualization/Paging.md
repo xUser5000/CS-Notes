@@ -37,8 +37,10 @@
 
 # Disadvantages
 - Too slow because it requires an extra memory reference to the page table.
+	- Can be solved using [[TLB]]s.
 - Wastes a lot of memory just for storing the page table.
-	- For a 32-bit address space with 4KB pages, 4 bytes per PTE, and 100 running processes, it takes ~400 MB to store all address translations.
+	- e.g, For a 32-bit address space with 4KB pages, 4 bytes per PTE, and 100 running processes, it takes ~400 MB to store all address translations.
+	- Can be solved using the techniques described in [[Paging - Smaller Tables]].
 
 # Sources
 - OSTEP Chapter 18 - "Paging: Introduction"
