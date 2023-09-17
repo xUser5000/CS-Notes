@@ -2,7 +2,9 @@
 - Simple array-based page tables take up too much space.
 
 # Solution 1: Bigger Pages
-- Explanation: Bigger pages lead to smaller page tables.
+- Advantages:
+	- Smaller page tables.
+	- Better TLB performance.
 - Disadvantage: #internal_fragmentation.
 
 # Solution 2: Paging and Segments
