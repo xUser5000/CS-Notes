@@ -23,6 +23,7 @@
 			- [[Base and Bounds]]
 			- [[Segmentation]]
 			- [[Paging]]
+- To support a large address space more than what is physically available, the OS uses [[Swap Space]].
 
 # Sources
 - OSTEP Chapter 13 - "The Abstraction: Address Spaces"
