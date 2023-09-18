@@ -8,11 +8,11 @@
 - Types of exceptions:
 	- *Asynchronous Exception*: an exception that is caused by events external to the CPU.
 		- Examples:
-			- Timer interrupt: the kernel takes back control of the current process every few milliseconds.
+			- #timer_interrupt : the kernel takes back control of the current process every few milliseconds.
 			- I/O interrupt from an external device: e.g, arrival of a disk page or a network packet.
 	- *Synchronous Exceptions*: an exception that is caused as a result of executing an instruction.
 		- Examples:
-			- *Traps*: e.g, [[System Calls]] and breakpoints
+			- *Traps*: e.g, #system_call and breakpoints
 			- *Faults*: e.g, page faults and floating-point exceptions
 			- *Aborts*: e.g, illegal instruction
 
