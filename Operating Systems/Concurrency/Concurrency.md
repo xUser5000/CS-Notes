@@ -1,6 +1,6 @@
 # Explanation
 - #parallelism: when two or more threads are executing simultaneously. [2]
-- #concurrency: when two or more threads are making progress. A more generalized form of parallelism that can include time-slicing as a form of virtual parallelism. [2]
+- #concurrency: when two or more threads are making progress. A more generalized form of parallelism that can include #time_sharing as a form of virtual parallelism. [2]
 - #thread:
 	- Definition:
 		- Smallest sequence of programmed instructions that can be managed independently by a scheduler. [3]
@@ -16,13 +16,15 @@
 		- Easily share data since threads live in the same address space, unlike processes.
 	- Drawbacks: [1]
 		- Uncontrolled Scheduling: hard to tell which thread will run next.
+			- Can be solved using [[Condition Variable]]s
 		- Vulnerable to #race_condition s.
+			- Can be solved using [[Lock]]s
 - #multithreaded_program: a program that allows access to two or more threads. [4]
 	- Each thread has its own #call_stack. Illustration: ![[Single-Threaded And Multi-Threaded Address Spaces.png]]
 - #race_condition (AKA #data_race): When multiple threads enter the #critical_section at the same time and update a shared data structure. [1]
 	- Results depend on the timing execution of the code.
 - #critical_section: a piece of code that accesses a shared resource and must not be concurrently executed by more than on thread. [1]
-- #mutual_exclusion: a property that guarantees if one thread is executing the within the #critical_section, the others will be prevented from doing so. [1] 
+- #mutual_exclusion: a property that guarantees if one thread is executing within the #critical_section, the others will be prevented from doing so. [1] 
 - #atomic_instruction: an instruction that either executes entirely or does not execute at all. [1]
 	- It is never partially executed.
 	- "all or nothing"
