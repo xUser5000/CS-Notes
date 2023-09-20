@@ -1,17 +1,17 @@
 # Explanation
 - *Lock*: synchronization primitive that enforces #mutual_exclusion on a resource. [2]
-	- ensures that any such critical section executes as if it were a single #atomic_instruction.
-	- In POSIX terms, named #mutex.
+	- ensures that any such critical section executes as if it were a single #atomic_instruction. [1]
+	- In POSIX terms, named #mutex. [1]
 
-## Mechanism
+## Mechanism [1]
 - Can be in two states: #locked / #unlocked.
 - Only one thread can hold the lock at any given time.
 
-# API
+## API [1]
 - `lock()`: acquires the lock
 - `unlock`: releases the lock
 
-# Implementations
+## Implementations [1]
 - [[Controlling Interrupts]]
 - Loads & Stores: does not provide #mutual_exclusion.
 - [[Spin Lock]]
