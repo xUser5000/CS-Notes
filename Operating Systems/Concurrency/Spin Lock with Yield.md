@@ -1,6 +1,6 @@
 # Explanation
 - Instead of spinning (as in [[Spin Lock]]) when trying to acquire a lock, we can use the `yield()` system call to give up the CPU entirely.
-- `yield()` moves the caller thread to from `running` state to `ready`.
+- `yield()` moves the caller thread from `running` state to `ready`.
 
 ## Mechanism
 ![[Code for Spin Lock with yield.png]]

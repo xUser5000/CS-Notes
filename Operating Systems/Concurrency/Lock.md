@@ -1,6 +1,6 @@
 # Explanation
 - *Lock*: synchronization primitive that enforces #mutual_exclusion on a resource. [2]
-	- ensures that any such critical section executes as if it were a single #atomic_instruction. [1]
+	- ensures that any critical section executes as if it were a single #atomic_instruction. [1]
 	- In POSIX terms, named #mutex. [1]
 
 ## Mechanism [1]

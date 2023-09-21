@@ -8,7 +8,6 @@
 
 ## Advantages
 - Provides #mutual_exclusion.
-- 
 
 ## Disadvantages
 - Does not provide any fairness guarantees.
