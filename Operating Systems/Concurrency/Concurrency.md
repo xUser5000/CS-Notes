@@ -15,13 +15,20 @@
 	- It is never partially executed.
 	- "all or nothing"
 
-# Primitives
+## Primitives
 - [[Lock]]
 - [[Condition Variable]]
 - [[Semaphore]]
+
+## Bugs [5]
+- Non-deadlock:
+	- Atomicity Violation: desired serviceability among multiple memory accesses is violated.
+	- Order Violation: desired order between two memory accesses is flipped.
+- [[Deadlock]]
 
 # Sources
 1. OSTEP Chapter 26 - "Concurrency: An Introduction"
 2. [Stack Overflow - What is the difference between concurrency and parallelism?](https://stackoverflow.com/a/1050257)
 3. [Wikipedia - Thread (computing)](https://en.wikipedia.org/wiki/Thread_(computing))
 4. [Oracle - Defining Multithreading terms](https://docs.oracle.com/cd/E19455-01/806-5257/6je9h032b/index.html)
+5. OSTEP Chapter 32 - "Common Concurrency Problems"
