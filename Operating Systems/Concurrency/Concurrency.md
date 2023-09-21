@@ -1,25 +1,11 @@
 # Explanation
+
+## Definitions
 - #parallelism: when two or more threads are executing simultaneously. [2]
-- #concurrency: when two or more threads are making progress. A more generalized form of parallelism that can include #time_sharing as a form of virtual parallelism. [2]
-- #thread:
-	- Definition:
-		- Smallest sequence of programmed instructions that can be managed independently by a scheduler. [3]
-		- Sequence of instructions executed within the context of a [[Process]]. [4]
-		- Single point of execution within a program. [1]
-	- Characteristics:
-		- Threads within the same process share the same address space and access the same the data.
-		- On #context_switch, the address space remains the same.
-	- Benefits: [1]
-		- Speed up computation via #parallelism.
-		- Avoid blocking program progress due to slow IO.
-			- While on thread waits, the scheduler can switch to other threads.
-		- Easily share data since threads live in the same address space, unlike processes.
-	- Drawbacks: [1]
-		- Uncontrolled Scheduling: hard to tell which thread will run next.
-			- Can be solved using [[Condition Variable]]s
-		- Vulnerable to #race_condition s.
-			- Can be solved using [[Lock]]s
-- #multithreaded_program: a program that allows access to two or more threads. [4]
+- #concurrency: when two or more threads are making progress.
+	- A more generalized form of parallelism that can include #time_sharing as a form of virtual parallelism. [2]
+- [[Thread#Definition]]
+- #multithreaded_program: a program that allows access to two or more [[Thread]]s. [4]
 	- Each thread has its own #call_stack. Illustration: ![[Single-Threaded And Multi-Threaded Address Spaces.png]]
 - #race_condition (AKA #data_race): When multiple threads enter the #critical_section at the same time and update a shared data structure. [1]
 	- Results depend on the timing execution of the code.
@@ -28,6 +14,11 @@
 - #atomic_instruction: an instruction that either executes entirely or does not execute at all. [1]
 	- It is never partially executed.
 	- "all or nothing"
+
+# Primitives
+- [[Lock]]
+- [[Condition Variable]]
+- [[Semaphore]]
 
 # Sources
 1. OSTEP Chapter 26 - "Concurrency: An Introduction"
