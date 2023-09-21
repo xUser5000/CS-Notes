@@ -20,11 +20,14 @@
 - [[Condition Variable]]
 - [[Semaphore]]
 
-## Bugs [5]
+## Bugs
 - Non-deadlock:
 	- Atomicity Violation: desired serviceability among multiple memory accesses is violated.
 	- Order Violation: desired order between two memory accesses is flipped.
 - [[Deadlock]]
+
+## Other Concurrency Models
+- [[Event-based Concurrency]]
 
 # Sources
 1. OSTEP Chapter 26 - "Concurrency: An Introduction"
