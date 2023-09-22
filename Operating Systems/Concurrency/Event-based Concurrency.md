@@ -25,6 +25,8 @@ while (1) {
 	- The developer has little to no control over what is scheduled at a given moment in time.
 - No need to acquire or release locks.
 	- The event loop cannot be interrupted by another thread since it's the only thread running.
+- Doesn't suffer from context switches. [2 - 5:31]
+- Uses less memory, in contrast to [[Thread]]s. [2 - 5:31]
 
 ## Disadvantages
 - In multi-processor systems, some of the simplicity disappears.
@@ -32,4 +34,5 @@ while (1) {
 - Does not integrate well with certain kinds of systems activity such as [[Paging]].
 
 # Sources
-- OSTEP Chapter 33 - "Event-based Concurrency (Advanced)"
+1. OSTEP Chapter 33 - "Event-based Concurrency (Advanced)"
+2. [JSConf - Ryan Dahl: Node JS](https://www.youtube.com/watch?v=EeYvFl7li9E)
