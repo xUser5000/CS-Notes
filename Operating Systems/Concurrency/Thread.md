@@ -22,7 +22,7 @@
 	- Can be solved using [[Lock]]s
 
 ## Related
-- Green Threads
+- [[Green Thread]]
 - Coroutines
 
 # Sources
