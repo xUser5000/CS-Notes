@@ -16,10 +16,10 @@
 - Call `trylock()` and if not successful, release all the held locks.
 - Write lock-free code.
 
-## Recovery Techniques [1]
+## Recovery [1]
 - We can allow deadlocks to rarely occur, and then take some action once such deadlock has been detected.
 - A deadlock detection thread runs periodically, building a resource allocation graph and checking it for cycles.
-	- In the even of a deadlock, the system has to be restarted, or a more fine-grained action can be taken.
+	- In the event of a deadlock, the system has to be restarted, or a more fine-grained action can be taken.
 
 # Sources
 1. OSTEP Chapter 32 - "Common Concurrency Problems"
