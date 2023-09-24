@@ -22,7 +22,7 @@
 
 ## Bugs
 - Non-deadlock:
-	- Atomicity Violation: desired serviceability among multiple memory accesses is violated.
+	- Atomicity Violation: desired serializability among multiple memory accesses is violated.
 	- Order Violation: desired order between two memory accesses is flipped.
 - [[Deadlock]]
 
