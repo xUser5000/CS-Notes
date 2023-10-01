@@ -43,6 +43,7 @@
 - Possible implementations:
 	- [[Very Simple File System (VFS)]]
 	- [[Fast File System (FFS)]]
+	- [[Log-structured File System (LFS)]]
 
 ## Issues
 - [[Crash Consistency]]
