@@ -1,5 +1,5 @@
 # Explanation
-- Disks are usually used as the secondary storage device in a computer system.
+- Disks are [[IO Devices]] that are usually used as the secondary storage device in a computer system.
 - Types of disks:
 	- [[Hard Disk Drives (HDD)]]
 	- [[Solid State Drives (SSD)]]
