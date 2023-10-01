@@ -44,5 +44,8 @@
 	- [[Very Simple File System (VFS)]]
 	- [[Fast File System (FFS)]]
 
+## Issues
+- [[Crash Consistency]]
+
 # Sources
 - OSTEP Chapter 39 - "Interlude: Files and Directories"
