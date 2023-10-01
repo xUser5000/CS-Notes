@@ -9,5 +9,4 @@
 # Topics
 - [[Virtualization]]
 - [[Concurrency]]
-- [[Input/Output]]
-- [[File Systems]]
+- [[Persistence]]
