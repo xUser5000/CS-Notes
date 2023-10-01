@@ -11,6 +11,9 @@
 	- *Logical Layer* describes which entities and attributes the database has.
 	- *Physical Layer* describes how entities and attributes are stored.
 
+# Topics
+- [[Database Storage]]
+
 # FAQ
 - Why do we need a database management system? Why not just store data in a flat CSV file? (AKA Strawman system)? Because there are many issues with this approach:
 	- Data Integrity
