@@ -29,11 +29,8 @@
 	- DBMS version.
 	- Transaction visibility.
 - There are two main approaches to laying out data in pages:
-	- *Slotted Pages*: contains a slot array that maps the slots to the tuple's starting positions.
-		- Header keeps track of the number of used slots, the offset of the starting location of the last used slot, and a slot array, which keeps track of the location of the start of each tuple.
-		- To add a tuple, the slot array will grow from the beginning to the end, and the data of the tuples will grow from end to the beginning. The page is considered full when the slot array and the tuple data meet.
-		- Most common approach used in DBMSs today.
-	- Log-structured (similar to [[Log-structured File System (LFS)]]).
+	- [[Slotted Pages]]
+	- [[Log-Structured Pages]]
 
 ## Tuple Layout
 - *Tuple*: sequence of bytes which the DBMS interprets into attribute types and values.
@@ -51,6 +48,11 @@
 - If two tables are related, the DBMS can “pre-join” them, so the tables end up on the same page.
 	- **Advantage**: makes reads faster since the DBMS only has to load in one page rather than two separate pages.
 	- **Disadvantages**: makes updates more expensive since the DBMS needs more space for each tuple.
+
+## Database Catalog
+- In order for the DBMS to be able to decipher the contents of tuples, it maintains an internal catalog to tell it meta-data about the databases.
+	- The meta-data will contain information about what tables and columns the databases have along with their types and the orderings of the values.
+	- Most DBMSs store their catalog inside of themselves in the format that they use for their tables. They use special code to “bootstrap” these catalog tables.
 
 # Sources
 - CMU 15-445 Lecture 3 - "Database Storage (Part I)"
