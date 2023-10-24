@@ -1,25 +1,23 @@
 # Explanation
-- Components of the DBMS are responsible for figuring out how to move data between [[Disks]] and RAM.
 - The database is stored as files on disk.
 	- Data is organized into fixed-size pages.
-		- The first page is the directory page.
+		- The first page is the directory page. ^a7626a
+			- Maps page IDs to locations in the database files.
 		- Pages can contain different kinds of data (tuples, indexes, etc).
 		- Each page is given a unique identifier.
 		- Most DBMSs have an indirection layer that maps a page id to a file path and offset.
 	- Some systems use a file hierarchy, others may use a single file (e.g, SQLite).
-	- These files are encoded in a way specific to the DBMS and the OS does not know anything about them.
+		- These files are encoded in a way specific to the DBMS.
 - The DBMS's storage manager is responsible for:
 	- Representing files as a collection of pages.
 	- Keeping track of which pages has bean read and which has been written to.
 	- Keeping track of how much free space is there.
-- To operate on data, DBMS brings pages into memory using [[Buffer Pool Manager]].
 
 ## Database Heap
-- One of the ways to find a location of a page the DBMS wants.
+- *Database Heap*: a way to find location of a page given its `page_id`.
 - *Heap File*: unordered collection of pages where tuples are stored in random order.
-- The DBMS can locate pages on disk given a `page_id` using one of the following ways:
+- The DBMS can locate pages using one of the following ways:
 	- *Linked List*: Header page holds pointers to a list of free pages and a list of data pages.
-		- If the DBMS is looking for a specific page, it has to do a sequential scan on the data page list until it finds the page it is looking for.
 	- *Page Directory*: DBMS maintains special pages that track locations of data pages along with the amount of free space on each page.
 
 ### Page Layout
@@ -51,8 +49,15 @@
 
 ## Database Catalog
 - In order for the DBMS to be able to decipher the contents of tuples, it maintains an internal catalog to tell it meta-data about the databases.
-	- The meta-data will contain information about what tables and columns the databases have along with their types and the orderings of the values.
-	- Most DBMSs store their catalog inside of themselves in the format that they use for their tables. They use special code to “bootstrap” these catalog tables.
+	- The meta-data contains information about what tables and columns the databases have along with their types and the orderings of the values.
+	- Most DBMSs store their catalog inside of themselves in the format that they use for their tables.
+		- They use special code to “bootstrap” these catalog tables.
+
+# Topics
+- [[Database Workloads]]
+- [[Database Storage Models]]
+- [[Database Buffer Pool]]
 
 # Sources
 - CMU 15-445 Lecture 3 - "Database Storage (Part I)"
+- CMU 15-445 Lecture 5 - "Storage Models & Compression"
