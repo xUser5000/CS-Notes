@@ -6,7 +6,7 @@
 - Machine-level programming
 	- [[Overview of assembly x86]]
 	- [[Procedures]]
-	- [[Data Structures]]
+	- [[Computer Architecture/Machine-level Programming/Data Structures/Data Structures]]
 		- [[Arrays]]
 		- [[Structs]]
 - [[Memory Layout]] of a running program

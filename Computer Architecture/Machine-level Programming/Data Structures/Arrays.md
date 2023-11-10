@@ -11,4 +11,4 @@
 		- `A + (i * C + j) + k`
 
 # Sources
-- Extends [[Data Structures#Sources]]
+- Extends [[Computer Architecture/Machine-level Programming/Data Structures/Data Structures#Sources]]

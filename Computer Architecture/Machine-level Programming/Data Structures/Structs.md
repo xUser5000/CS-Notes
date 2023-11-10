@@ -10,5 +10,5 @@
 	- To save space, programmers can greedily sort the struct fields from largest to smallest.
 
 # Sources
-- Extends [[Data Structures#Sources]]
+- Extends [[Computer Architecture/Machine-level Programming/Data Structures/Data Structures#Sources]]
 - [Wikipedia - Data structure alignment](https://en.wikipedia.org/wiki/Data_structure_alignment)

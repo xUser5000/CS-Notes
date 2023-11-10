@@ -57,6 +57,7 @@
 - [[Database Workloads]]
 - [[Database Storage Models]]
 - [[Database Buffer Pool]]
+- [[Database Systems/Database Storage/Data Structures|Data Structures]]
 
 # Sources
 - CMU 15-445 Lecture 3 - "Database Storage (Part I)"
