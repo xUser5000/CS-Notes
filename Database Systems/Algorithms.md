@@ -1,3 +1,0 @@
-# Topics
-- [[Sorting]]
-- [[Aggregations]]
