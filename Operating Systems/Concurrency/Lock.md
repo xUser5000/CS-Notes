@@ -17,7 +17,7 @@
 - [[Spin Lock]]
 - [[Spin Lock with Yield]]
 - [[Locks with Queues & Wakeup]]
-- Linux-based Futex Locks
+- Linux-based Futex Locks ^565747
 	- Optimizes for the common case: when there is no contention for the lock, very little work is done.
 
 # Sources

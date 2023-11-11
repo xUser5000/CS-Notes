@@ -79,5 +79,54 @@
 - In case of an index over non-unique keys, we might end up with the same key repeated over and over again.
 - To solve this, we can store the keys once and then all its associated values after that.
 
+
+## Latching
+- The challenge of B+ tree latching is preventing the following problems:
+	- Threads try to modify the contents of a node at the same time.
+	- One thread traversing the tree while another thread splits/merges nodes.
+
+### Latch Crabbing/Coupling
+- It's a technique to allow multiple threads to access/modify B+ tree at the same time.
+
+#### Mechanism
+```
+1. Get latch for the parent
+2. Get latch for the child
+3. Release latch for the parent if the child is deemed "safe".
+```
+- A "safe" node is one that will not split, merge, or redistribute when updated.
+	- The notion depends on the type of operation: insertion or deletion.
+- Read latches don't need to worry about the "safe" condition.
+
+#### Protocol
+```
+- Search:
+	1. Start at the rott and go down.
+	2. Repeatedly acquire latch on the child and unlatch the parent.
+- Insert/Delete:
+	1. Start at the root and go down, obtaining X latches as needed.
+	2. Once the child is latched, check if it's safe.
+		- If child is safe, release latches on all its anecstors.
+```
+- It's better to release latches that are higher up in the tree since the block access to a larger portion of leaf nodes.
+
+#### Improved Protocol
+- The problem with [[#Protocol]] is transactions **always** acquire exclusive latch on the root for every insert/deletion operations, which limits parallelism.
+- We can make use of the assumption that split/merge operations are rare and implement the following protocol that optimizes for the common case.
+```
+- Search: Same algorithm as above.
+- Insert/Delete:
+	1. Set READ latches as if for search.
+	2. Go to leaf.
+	3. Set WRITE latche on leaf.
+		- If leaf is not safe, release all previous latches and restart the transaction using previous Insert/Delete protocol.
+```
+
+### Leaf Node Scans
+- Leaf node scans are susceptible to deadlocks because there might be threads trying to acquire X locks in two different directions at the same time.
+- To solve this problem we can implement a "no-wait" protocol:
+	- If a thread tries to acquire a latch but failed, it should abort its operation and release any latches it holds.
+
 # Sources
 - CMU 15-445 Lecture 8 - "Tree Indexes"
+- CMU 15-445 Lecture 9 - "Index Concurrency Control"

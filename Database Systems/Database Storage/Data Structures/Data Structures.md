@@ -13,6 +13,7 @@
 # Topics
 - [[Hash Table]]
 - [[B+ Tree]]
+- [[Database Systems/Database Storage/Data Structures/Concurrency|Concurrency]]
 
 # Source
 1. CMU 15-445 Lecture 7 - "Hash Tables"

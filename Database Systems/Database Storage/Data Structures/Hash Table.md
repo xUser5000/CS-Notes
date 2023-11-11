@@ -61,5 +61,31 @@
 #### Linear Hashing
 // TODO
 
+## Latching
+
+### Latching Static Tables
+- Latching a static hash table is easy because:
+	- All threads move in the same direction when moving from a slot to the next.
+	- All threads only access one page/slot at a time.
+- Deadlocks are not possible due to above reasons.
+- When resizing, we can just acquire a global latch on the entire table.
+
+### Latching Dynamic Tables
+- There are two possible approaches to latch dynamic hash tables.
+
+#### Page latches
+- Each page has its own [[Database Systems/Database Storage/Data Structures/Concurrency#Reader-Writer Latch|Reader-Writer Latch]] that protects is entire contents.
+- Decreases parallelism because potentially only one thread can access a page at a time.
+- Accessing multiple slots in a page will be faster because a thread has to only acquire a single latch.
+
+#### Slot latches
+- Each slot has its own latch.
+- Increases parallelism because two threads can access different slots on the same page.
+- Increases storage and computational overhead because
+	- Threads have to acquire a latch for every slot they access.
+	- Each slot has to store data for latches.
+- The DBMS can use single mode latches to reduce meta-data and computational overhead at the cost of some parallelism.
+
 # Sources
 - CMU 15-445 Lecture 7 - "Hash Tables"
+- CMU 15-445 Lecture 9 - "Index Concurrency Control"
