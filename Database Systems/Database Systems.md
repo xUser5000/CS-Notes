@@ -18,6 +18,7 @@
 	- [[Aggregations]]
 	- [[Joins]]
 - [[Query Execution]]
+- [[Concurrent Query Execution]]
 
 # FAQ
 - Why do we need a database management system? Why not just store data in a flat CSV file? (AKA Strawman system)? Because there are many issues with this approach:
