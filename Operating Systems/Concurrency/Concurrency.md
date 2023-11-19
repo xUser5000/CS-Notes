@@ -11,7 +11,7 @@
 	- Results depend on the timing execution of the code.
 - #critical_section: a piece of code that accesses a shared resource and must not be concurrently executed by more than on thread. [1]
 - #mutual_exclusion: a property that guarantees if one thread is executing within the #critical_section, the others will be prevented from doing so. [1] 
-- #atomic_instruction: an instruction that either executes entirely or does not execute at all. [1]
+- #atomic instruction: an instruction that either executes entirely or does not execute at all. [1]
 	- It is never partially executed.
 	- "all or nothing"
 
