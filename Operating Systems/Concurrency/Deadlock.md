@@ -8,7 +8,7 @@
 - No preemption: Resources cannot be forcibly removed from threads that are holding them.
 - Circular Wait: There exists a circular chain of threads such that each thread holds one or more resources that are being requested by the next thread in the chain.
 
-## Prevention Techniques [1]
+## Prevention [1]
 - Write locking code such that it never induces a circular wait.
 	- e.g, enforcing a total ordering on resource allocations.
 - Acquire locks all at once (atomically).

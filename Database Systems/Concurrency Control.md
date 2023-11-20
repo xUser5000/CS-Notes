@@ -41,8 +41,8 @@
 ## Concurrency Control Protocols
 - *Concurrency Control Protocol*: describes how the DBMS decides the proper interleaving of operations from multiple transactions at runtime.
 	- Categories of concurrency control protocols:
-		- **Pessimistic**: assumes the transactions will conflict, so it doesn't let problems arise in the first place.
-		- **Optimistic**: assumes that conflicts are rare, so it chooses to deal with conflicts when they happen after the transactions commit.
+		- #pessimistic: assumes the transactions will conflict, so it doesn't let problems arise in the first place. ^68cb0f
+		- #optimistic: assumes that conflicts are rare, so it chooses to deal with conflicts when they happen after the transactions commit.
 - *Execution Schedule*: the order in which the DBMS executes operations.
 - *Serial Schedule*: a schedule that doesn't interleave the actions of different transactions.
 - *Equivalent Schedules*: for any database state, if the effect of executing the first schedule is identical to the effects of executing the second schedule, the two schedules are equivalent.
@@ -56,9 +56,40 @@
 	- they are performed on the same object, and
 	- at least one of the operations is a write.
 - Three are three variations of conflicts:
-	- **Read-Write Conflicts** (Unrepeatable Reads): A transaction is not able to get the same value when reading the same object multiple times.
-	- **Write-Read Conflicts** (Dirty Reads): A transaction sees the write effects of a different transaction before that transaction committed its changes.
-	- **Write-Write conflict** (Lost Updates): One transaction overwrites the uncommitted data of another concurrent transaction.
+	- **Read-Write Conflicts** ( #unrepeatable_read): A transaction is not able to get the same value when reading the same object multiple times.
+	- **Write-Read Conflicts** ( #dirty_read): A transaction sees the write effects of a different transaction before that transaction committed its changes.
+	- **Write-Write conflict** ( #lost_update): One transaction overwrites the uncommitted data of another concurrent transaction.
+
+### Transaction Locks [2]
+- Extends [[Database Systems/Database Storage/Data Structures/Concurrency#Lock]]
+- A DBMS uses locks to dynamically generate execution schedules that is serializable without knowing each transaction's read/write set ahead of time.
+- *Lock Manager*: a module inside the DBMS that:
+	- decides whether a transaction can acquire a lock or not, and
+	- provides a global view of what's going on inside the system.
+- Basic types of locks:
+	- **Shared Lock** (S): allows multiple transactions to read the same object at the same time.
+		- If one transaction holds a shared lock, then another transaction can also acquire that same shared lock.
+	- **Exclusive Lock** (X): allows a transaction to modify an object.
+		- prevents other transactions from taking any other locks.
+- Locks need to be complemented by a concurrency control protocol resolve issues associated with concurrent transactions.
+
+#### Lock Granularities [2]
+- The DBMS can use a lock hierarchy that allows a transaction to take more coarse-grained locks. Example:
+	1. Database level (Slightly Rare)
+	2. Table level (Very Common)
+	3. Page level (Common)
+	4. Tuple level (Very Common)
+	5. Attribute level (Rare)
+- Intention locks allow a higher level node to be locked in shared mode or exclusive mode without having to check all descendant nodes.
+	- If a lock is in intention mode, then explicit locking is being done at a lower level in the tree.
+- Additional types of locks:
+	- **Intention-Shared** (IS): indicates explicit locking at a lower level with shared locks.
+	- **Intention-Exclusive** (IX): Indicates explicit locking at a lower level with exclusive or shared locks.
+	- **Shared+Intention-Exclusive** (SIX): The sub-tree rooted at that node is locked explicitly in shared mode and explicit locking is being done at a lower level with exclusive-mode locks.
+
+### Examples
+- [[Two-Phase Locking]]
 
 # Sources
-- CMU 15-445 Lecture 15 - "Concurrency Control Theory"
+1. CMU 15-445 Lecture 15 - "Concurrency Control Theory"
+2. CMU 15-445 Lecture 16 - "Two-Phase Locking"
