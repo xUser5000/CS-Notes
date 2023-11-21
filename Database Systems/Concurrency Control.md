@@ -88,6 +88,15 @@
 	- **Intention-Exclusive** (IX): Indicates explicit locking at a lower level with exclusive or shared locks.
 	- **Shared+Intention-Exclusive** (SIX): The sub-tree rooted at that node is locked explicitly in shared mode and explicit locking is being done at a lower level with exclusive-mode locks.
 
+### Isolation Levels
+- Enforcing serializability allows too little parallelism and limit performance.
+- Isolation levels control the extent that a transaction is exposed to the actions of other concurrent transactions.
+- Types defined in SQL-92 standard (from strongest to weakest):
+	- **SERIALIZABLE**: No phantoms, all read are repeatable, and no #dirty_read.
+	- **REPEATABLE READS**: phantoms may happen.
+	- **READ-COMMITTED**: phantoms and unrepeatable reads may happen.
+	- **READ-UNCOMMITTED**: all anomalies may happen.
+
 ### Examples
 - [[Two-Phase Locking]]
 - [[Timestamp Ordering]]
