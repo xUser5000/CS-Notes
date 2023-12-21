@@ -2,9 +2,9 @@
 - *Transaction*: execution of one or more operations (e.g, SQL queries) on a shared database to perform some higher level function.
 	- Basic unit of change in DBMS.
 	- Must be #atomic.
-- Transaction starts with the BEGIN command and ends with either COMMIT  or ABORT.
+- Transaction starts with the BEGIN command and ends with either COMMIT or ABORT.
 	- On ABORT, all modifications done by a transaction is rolled back as if the transaction never happened in the first place.
-
+ 
 ## ACID
 - It's an acronym that describes the criteria used to ensure the correctness of database transactions.
 
@@ -101,6 +101,7 @@
 - [[Two-Phase Locking]]
 - [[Timestamp Ordering]]
 - [[Optimistic Concurrency Control (OCC)]]
+- [[Multi-versioning Concurrency Control (MVCC)]]
 
 # Sources
 1. CMU 15-445 Lecture 15 - "Concurrency Control Theory"
