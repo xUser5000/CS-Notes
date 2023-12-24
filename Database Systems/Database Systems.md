@@ -21,6 +21,7 @@
 - [[Concurrent Query Execution]]
 - [[Query Planning & Optimization]]
 - [[Concurrency Control]]
+- [[Crash Recovery]]
 
 # FAQ
 - Why do we need a database management system? Why not just store data in a flat CSV file? (AKA Strawman system)? Because there are many issues with this approach:
