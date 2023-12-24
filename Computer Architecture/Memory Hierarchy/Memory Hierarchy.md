@@ -11,6 +11,8 @@
 - These levels are backed by different types of Storage Technologies:
 	- [[Volatile Memory]] 
 	- [[Non-volatile Memory]]
+	- Stable Storage: non-existent form of non-volatile storage that survives all possible failures scenarios. [2]
+		- Can be approximated using multiple storage devices.
 - **The big idea**: For each k, the faster, smaller device at level k serves as a [[Cache]] for the larger, slower device at level k+1.
 - The memory hierarchy creates a large pool of storage that costs as much as the cheap storage near the bottom, but that serves data to programs at the rate of the fast storage at the top.
 - Average access times of different levels in the hierarchy: ![[Access times in memory hierarchy.png]]
@@ -20,4 +22,5 @@
 	- Because of [[Locality of reference]], programs tend to access the data at level k more often than they access data at level k+1.
 
 # Sources
--  [CMU Introduction to Computer Systems - Lecture 11](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06dfcd19-1024-49eb-add8-3486a38d1426)
+1. [CMU Introduction to Computer Systems - Lecture 11](https://scs.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06dfcd19-1024-49eb-add8-3486a38d1426)
+2. CMU 15-445 Lecture 19 - "Logging Schemes"
