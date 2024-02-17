@@ -5,7 +5,8 @@
 - *VPN (Virtual Private Network)*: networks that are used to join the individual networks at different sites into once extended network.
 
 ## Topics
-- [[Network Taxonomy]]
+- [[Network Hardware]]
+- [[Network Software]]
 
 # FAQ
 - What's the difference between a computer network and a distributed system?
