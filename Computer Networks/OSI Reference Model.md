@@ -7,6 +7,7 @@
 	- The function of each layer should be chosen with an eye toward defining internationally standardized protocols.
 	-  The layer boundaries should be chosen to minimize the information flow across the interfaces.
 	- The number of layers should be large enough that distinct functions need not be thrown together in the same layer out of necessity and small enough that the architecture does not become unwieldy.
+- 
 
 ## Illustration
 ![[OSI Reference Model.png]]
@@ -25,6 +26,13 @@
 - **The Presentation Layer** is concerned with the syntax and semantics of the information transmitted.
 - **The Application Layer** contains a variety of protocols that are commonly needed by users.
 	- **Example**: HyperText Transfer Protocol (HTTP).
+
+
+## Advantages
+- The OSI reference model was devised before the corresponding protocols were invented, which meant it was not biased toward one set of protocols.
+
+## Disadvantages
+- The designers did not have much experience and didn't have a good idea of which functionality to put in which layer.
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 1.4.1

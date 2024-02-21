@@ -33,5 +33,11 @@
 	- RTP
 	- TELNET
 
+## Advantages
+- The protocols came before the model and the model was just a description of the already-existing protocols, so they fit perfectly
+
+## Disadvantages
+- The model didn't fit any other protocol stack.
+
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 1.4.2
