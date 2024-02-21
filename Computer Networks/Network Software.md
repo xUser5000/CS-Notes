@@ -15,7 +15,7 @@
 		- Modeled after the postal system.
 - Reference models:
 	- [[OSI Reference Model]]
-	- [[TCP/IP Reference Model]]
+	- [[TCP-IP Reference Model]]
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 1.3

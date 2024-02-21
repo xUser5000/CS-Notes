@@ -27,4 +27,4 @@
 	- **Example**: HyperText Transfer Protocol (HTTP).
 
 # Sources
-- Andrew S. Tanenbaum's "Computer Networks" - Section 1.4
+- Andrew S. Tanenbaum's "Computer Networks" - Section 1.4.1
