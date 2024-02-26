@@ -6,7 +6,7 @@
 - *Network Architecture*: a set of layers and protocols.
 - *Protocol Stack*: a list of the protocols used by a certain system, one protocol per layer.
 - *Service*: a set of primitives (operations) that a layer provides to the layer above it.
-	- The primitives are normally system calls.
+	- The primitives are normally #system_call s.
 - Entities use protocols to implement their service definitions.
 - Layers can offer two different types of service to the layers above them:
 	- **Connection-oriented services**: services where the user first establishes a connection, uses the connection, and then releases the connection.
