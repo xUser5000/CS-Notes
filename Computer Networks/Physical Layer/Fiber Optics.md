@@ -19,5 +19,19 @@
 - The receiving end of an optical fiber consists of a photodiode, which gives off an electrical pulse when struck by light.
 	- The response time of photodiodes, which convert the signal from the optical to the electrical domain, limits data rates to about 100 Gbps.
 
+## Advantages
+- Can handle much higher bandwidths than copper.
+- Due to the low attenuation, repeaters are needed only about every 50 km on long lines, versus about every 5 km for copper.
+	- This results in a big cost saving.
+- Are affected by power surges, electromagnetic interference, power failures., or even corrosive chemicals in the air.
+- Thin and lightweight.
+- Do not leak light.
+
+## Disadvantages
+- It's a less familiar technology requiring skills not all engineers have.
+- Can be damaged easily by being bent too much.
+- Since optical communication is inherently unidirectional, two-way communication requires either two fibers or two frequency bands on one fiber.
+- Fiber interfaces cost more than electrical interfaces.
+
 # Source
 - Extends [[Guided Transmission Media#Sources]]
