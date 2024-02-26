@@ -9,6 +9,10 @@
 - [[The Internet]]
 - Network Layers:
 	- [[Physical Layer]]
+	- [[Data Link Layer]]
+	- [[Network Layer]]
+	- [[Transport Layer]]
+	- [[Application Layer]]
 
 # FAQ
 - What's the difference between a computer network and a distributed system?
@@ -18,3 +22,4 @@
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 1.1
+  
