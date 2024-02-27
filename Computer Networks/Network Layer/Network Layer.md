@@ -19,6 +19,9 @@
 	- [[Connection-less Service]]
 	- [[Connection-oriented Service]]
 
+# Topics
+- [[Routing Algorithms]]
+
 # FAQ
 - What's the difference between connection-less services and connection-oriented ones?
 	- Answer: ![[Comparison of datagram and virtual-circuit networks.png]]
