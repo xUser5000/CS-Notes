@@ -1,17 +1,20 @@
 # Explanation
-- Motivation:
-	- System memories are growing.
-		- As memory gets bigger, more data can be cached. Thus, write performance becomes the bottleneck.
-	- There is a large gap between the performance of random IO and sequential IO.
-	- Existing systems perform poorly on many common workloads.
-- Disk Layout: ![[LFS Disk Layout.png]]
+
+## Motivation:
+- System memories are growing.
+	- As memory gets bigger, more data can be cached. Thus, write performance becomes the bottleneck.
+- There is a large gap between the performance of random IO and sequential IO.
+- Existing systems perform poorly on many common workloads.
+
+## Structure
+![[LFS Disk Layout.png]]
 
 ## Mechanism
 - Basic idea:
 	- When writing to the disk, LFS buffers all updates in an in-memory segment.
 	- When the segment is full, it's written to disk in one long, sequential transfer to an unused portion of the disk.
 	- LFS never overwrites existing data, but rather always writes segments to free locations.
-- #inode_map : a structure that takes an #inode number and as input and produces the disk address of the most recent version of the #inode.
+- #inode_map : a structure that takes an #inode number as input and produces the disk address of the most recent version of the #inode.
 	- Needs to be kept persistent to keep track of the disk locations of inodes across crashes.
 	- LFS places a chunk of the inode map right next to where it is writing all of the other new info.
 - When appending a data block `k` to a file, LFS writes the the new data block, its inode, ans a piece of the inode map all together onto the disk.
