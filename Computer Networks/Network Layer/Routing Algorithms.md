@@ -6,6 +6,7 @@
 - Routers can be though of as having two separate processes inside them:
 	- **Forwarding**: handles each packet as it arrives, looks up the outgoing line in the routing table, and then forward it to the corresponding line.
 	- **Routing**: periodically fills and updates the routing tables to be used in the forwarding process according to the routing algorithm.
+- When a routing algorithm is implemented, each router must take decisions based on local knowledge, not the complete picture of the network.
 
 ## Design Goals
 - Correctness
@@ -45,3 +46,4 @@
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 5.2
+- Andrew S. Tanenbaum's "Computer Networks" - Section 5.2.3
