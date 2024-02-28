@@ -44,6 +44,7 @@
 - [[Flooding]]
 - [[Distance Vector Routing]]
 - [[Link State Routing]]
+- [[Hierarchical Routing]]
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 5.2
