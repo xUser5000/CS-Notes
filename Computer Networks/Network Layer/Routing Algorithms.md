@@ -7,6 +7,7 @@
 	- **Forwarding**: handles each packet as it arrives, looks up the outgoing line in the routing table, and then forward it to the corresponding line.
 	- **Routing**: periodically fills and updates the routing tables to be used in the forwarding process according to the routing algorithm.
 - When a routing algorithm is implemented, each router must take decisions based on local knowledge, not the complete picture of the network.
+- *Convergence*: the settling of routes to best paths across the network.
 
 ## Design Goals
 - Correctness
