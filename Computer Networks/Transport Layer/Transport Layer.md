@@ -14,6 +14,13 @@
 	- **Connection-oriented Services**
 	- **Connection-less Services**
 
+# Topics
+- Elements of transport protocols:
+	- [[Addressing]]
+	- [[Connection Establishment]]
+	- [[Connection Release]]
+	- [[Error Control and Flow Control]]
+
 # FAQ
 - if the transport layer service is so similar to the network layer service, why are there two distinct layers?
 	- The transport layer improves the quality of services presented by the network layer.
