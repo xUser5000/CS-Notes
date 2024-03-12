@@ -45,6 +45,7 @@
 - [[Distance Vector Routing]]
 - [[Link State Routing]]
 - [[Hierarchical Routing]]
+- [[Routing for Mobile Hosts]]
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 5.2
