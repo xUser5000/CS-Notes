@@ -5,6 +5,7 @@
 - *Protocol*: a set of rules governing the format and meaning of the messages exchanged by the peer entities withing the layer.
 - *Network Architecture*: a set of layers and protocols.
 - *Protocol Stack*: a list of the protocols used by a certain system, one protocol per layer.
+	- Protocols must be designed to be correct in all cases.
 - *Service*: a set of primitives (operations) that a layer provides to the layer above it.
 	- The primitives are normally #system_call s.
 - Entities use protocols to implement their service definitions.

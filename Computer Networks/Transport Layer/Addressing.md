@@ -18,4 +18,4 @@
 - In this model, when a new service is created, it must register itself with the port mapper, giving both its service name and its port.
 
 # Sources
-- Andrew S. Tanenbaum's "Computer Networks" - Section 6.1
+- Andrew S. Tanenbaum's "Computer Networks" - Section 6.1.1
