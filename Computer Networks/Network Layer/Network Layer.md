@@ -21,6 +21,7 @@
 
 # Topics
 - [[Routing Algorithms]]
+- [[Congestion Control]]
 
 # FAQ
 - What's the difference between connection-less services and connection-oriented ones?
