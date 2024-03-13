@@ -84,4 +84,4 @@
 ![[Normal operation of the three-way handshake.png]]
 
 # Sources
-- Andrew S. Tanenbaum's "Computer Networks" - Section 6.2
+- Andrew S. Tanenbaum's "Computer Networks" - Section 6.2.2
