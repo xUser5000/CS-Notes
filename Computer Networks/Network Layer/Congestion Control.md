@@ -9,6 +9,7 @@
 - The presence of congestion means that the load is (temporarily) greater than the resources (in a part of the network) can handle.
 - The following solutions are usually applied on different time scales to either prevent congestion or react to it once it has occurred:
 	- [[Traffic-Aware Routing]]
+	- [[Admission Control]]
 
 ### Illustration
 ![[Timescales of approaches to congestion control.png]]

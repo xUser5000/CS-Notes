@@ -1,7 +1,7 @@
 # Explanation
 - *Routing Algorithm*: the part of the [[Network Layer]] software responsible for deciding which output line an incoming packet should be transmitted on.
 	- In case of a datagram network (refer to [[Connection-less Service|Connection-less Services]]), this decision is made for every arriving data packet since the best route may have changed since last time.
-	- In case of a virtual-circuit network (refer to [[Connection-oriented Service|Connection-oriented Services]]), this decision is made only when a new virtual circuit is being set up.
+	- In case of a virtual-circuit network (refer to [[Connection-oriented Service|Connection-oriented Services]]), this decision is made only when a new #virtual_circuit is being set up.
 		- Also known as **Session Routing** because a route remains in force for an entire session (e.g., while logged in over a VPN).
 - Routers can be though of as having two separate processes inside them:
 	- **Forwarding**: handles each packet as it arrives, looks up the outgoing line in the routing table, and then forward it to the corresponding line.
