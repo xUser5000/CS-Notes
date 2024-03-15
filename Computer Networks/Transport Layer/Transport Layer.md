@@ -20,6 +20,7 @@
 	- [[Connection Establishment]]
 	- [[Connection Release]]
 	- [[Error Control and Flow Control]]
+- [[Computer Networks/Transport Layer/Congestion Control|Congestion Control]]
 
 # FAQ
 - if the transport layer service is so similar to the network layer service, why are there two distinct layers?
