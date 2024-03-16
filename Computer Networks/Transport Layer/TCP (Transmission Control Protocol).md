@@ -9,6 +9,7 @@
 
 ## Topics
 - [[TCP Service Model]]
+- [[TCP Header]]
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 6.5
