@@ -21,7 +21,7 @@
 	- Similar to the transport layer in the [[OSI Reference Model]].
 - Protocols:
 	- [[UDP (User Datagram Protocol)]]
-	- [[TCP]]
+	- [[TCP (Transmission Control Protocol)]]
 
 ### The Application Layer
 - The application layer sits on top of the transport layers and contains all the higher-level protocols.

@@ -19,7 +19,7 @@
 
 ## Advantages
 - For applications that need to have precise control over the packet flow, error control, or timing, UDP provides just what the doctor ordered.
-- Requires fewer messages than [[TCP]].
+- Requires fewer messages than [[TCP (Transmission Control Protocol)]].
 - Does not require initial setup (i.e., connection).
 - Does not require a release step.
 

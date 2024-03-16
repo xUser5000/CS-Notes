@@ -10,7 +10,7 @@
 	- Illustration: ![[Nesting of segments, packets, and frames.png]]
 - The Internet has two main protocols in the transport layer that complement each other:
 	- [[UDP (User Datagram Protocol)]]: a connection-less protocol that does nothing beyond sending packets between applications.
-	- [[TCP]]: a connection-oriented protocol that adds reliability with retransmissions, along with flow control and congestion control.
+	- [[TCP (Transmission Control Protocol)]]: a connection-oriented protocol that adds reliability with retransmissions, along with flow control and congestion control.
 
 ## Transport Service Primitives
 - The transport layer, just like the network layer, provides two types of services:
