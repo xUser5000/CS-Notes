@@ -8,6 +8,9 @@
 - *Segment*: messages sent from transport entity to transport entity.
 - Segments (exchanged by the transport layer) are contained in packets (exchanged by the [[Network Layer]]), which are contained in frames (exchanged by the [[Data Link Layer]]).
 	- Illustration: ![[Nesting of segments, packets, and frames.png]]
+- The Internet has two main protocols in the transport layer that complement each other:
+	- [[UDP (User Datagram Protocol)]]: a connection-less protocol that does nothing beyond sending packets between applications.
+	- [[TCP]]: a connection-oriented protocol that adds reliability with retransmissions, along with flow control and congestion control.
 
 ## Transport Service Primitives
 - The transport layer, just like the network layer, provides two types of services:

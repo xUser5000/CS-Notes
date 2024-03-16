@@ -20,7 +20,7 @@
 - The transport layer is designed to allow peer entities on the source and destination hosts to carry on a conversation.
 	- Similar to the transport layer in the [[OSI Reference Model]].
 - Protocols:
-	- [[UDP]]
+	- [[UDP (User Datagram Protocol)]]
 	- [[TCP]]
 
 ### The Application Layer
