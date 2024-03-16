@@ -10,6 +10,7 @@
 ## Topics
 - [[TCP Service Model]]
 - [[TCP Header]]
+- [[TCP Connection Establishment]]
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 6.5
