@@ -11,6 +11,7 @@
 - [[TCP Service Model]]
 - [[TCP Header]]
 - [[TCP Connection Establishment]]
+- [[TCP Connection Release]]
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 6.5
