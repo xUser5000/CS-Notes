@@ -23,6 +23,7 @@
 	- [[Traffic-Aware Routing]]
 	- [[Admission Control]]
 	- [[Traffic Throttling]]
+	- [[Load Shedding]]
 
 ### Illustration
 ![[Timescales of approaches to congestion control.png]]
