@@ -17,6 +17,7 @@
 ## Solution 2: DNS
 - The essence of DNS (Domain name system) is the invention of a hierarchical, domain-based naming scheme and a distributed database system for implementing this naming scheme.
 - It's used for mapping host names to IP addresses.
+- *Name Resolution*: the process of looking up a name and finding an address.
 
 ### Mechanism
 - To map a name onto an IP address, an application program calls a library procedure called the resolver, passing it the name as a parameter.
@@ -26,6 +27,7 @@
 ### Topics
 - [[DNS Name Space]]
 - [[DNS Domain Resource Records]]
+- [[DNS Name Servers]]
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Chapter 7.1

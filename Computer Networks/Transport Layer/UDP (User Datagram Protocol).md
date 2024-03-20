@@ -28,7 +28,7 @@
 	- All of that is up to the user processes.
 
 ## Applications
-- [[DNS]]:
+- [[DNS (Domain Name System)]]:
 	- A program that needs to look up the IP address of some host name can send a UDP packet containing the host name to a DNS server.
 	- The server replies with a UDP packet containing the host’s IP address.
 	- This whole process does not require any setup in advance and no releases is needed afterwards, just two messages over the network.

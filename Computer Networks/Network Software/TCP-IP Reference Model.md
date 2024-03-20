@@ -28,7 +28,7 @@
 - Protocols:
 	- [[HTTP]]
 	- [[SMTP]]
-	- [[DNS]]
+	- [[DNS (Domain Name System)]]
 	- FTP
 	- RTP
 	- TELNET
