@@ -1,7 +1,7 @@
 # Explanation
 - If a connection-less service is offered by the network layer, packets are injected into the network individually and routed independently.
 	- No advance setup is needed.
-	- Packets in this context are called **datagrams**.
+	- Packets in this context are called **datagrams**. ^eae0cb
 	- The network is called a **datagram network**.
 
 ## Mechanism
