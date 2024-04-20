@@ -1,6 +1,6 @@
 # Explanation
 - When an application (e.g., a user) process wishes to set up a connection to a remote application process, it must specify which one to.
-- *ports*: the method that is normally used is to define transport addresses to which processes can listen for connection requests.
+- *ports*: the method that is normally used is to define transport addresses to which processes can listen for connection requests. ^7f27b8
 
 # FAQ
 - How does the user process on a particular host know that a particular server is attached to port X?

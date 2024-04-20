@@ -1,6 +1,6 @@
 # Explanation
 - Networks are organized as a stack of layers to reduce their design complexity.
-- The purpose of each layer is to offer certain services to the higher layers while shielding those layers from the implementation details of those services.
+- The purpose of each layer is to offer certain services to the higher layers while shielding those layers from the implementation details of those services. ^82572c
 - When layer $n$ on one machine carries on a conversation with layer $n$ on another machine, the rules and conventions used in this conversation are collectively known as the layer n protocol.
 - *Protocol*: a set of rules governing the format and meaning of the messages exchanged by the peer entities withing the layer.
 - *Network Architecture*: a set of layers and protocols.
