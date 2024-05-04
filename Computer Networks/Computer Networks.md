@@ -1,7 +1,7 @@
 # Explanation
 - *Computer Network*: collection of autonomous computers interconnected by a single technology.
 	- Two computers are interconnected if they are able to exchange information.
-- *VPN (Virtual Private Network)*: networks that are used to join the individual networks at different sites into once extended network.
+- *VPN (Virtual Private Network)*: networks that are used to join the individual networks at different sites into one extended network.
 
 # Topics
 - [[Network Hardware]]
