@@ -47,6 +47,9 @@ If all you have is a hammer, everything looks like a nail.
 ## Classification of Patterns
 - All patterns can be categorized by their _intent_, or purpose. There are three main groups of patterns:
 	- **Creational patterns** provide object creation mechanisms that increase flexibility and reuse of existing code.
+		- [[Factory Method Pattern]]
+		- [[Abstract Factory Pattern]]
+		- [[Singleton Pattern]]
 	- **Structural patterns** explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
 	- **Behavioral patterns** take care of effective communication and the assignment of responsibilities between objects.
 

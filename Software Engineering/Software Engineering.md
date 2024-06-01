@@ -1,2 +1,2 @@
 # Topics
-[[Design Patterns]]
+- [[Design Patterns]]
