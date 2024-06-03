@@ -29,15 +29,15 @@
 
 ## Criticism of patterns
 
-### Kludges for a weak programming language
+### 1. Kludges for a weak programming language
 - Usually the need for patterns arises when people choose a programming language or a technology that lacks the necessary level of abstraction.
 - In this case, patterns become a kludge that gives the language much-needed super-abilities.
 - For example, the [[Strategy Pattern|Strategy]] pattern can be implemented with a simple anonymous (lambda) function in most modern programming languages.
 
-### Inefficient solutions
+### 2. Inefficient solutions
 - Patterns try to systematize approaches that are already widely used. This unification is viewed by many as a dogma, and they implement patterns “to the letter”, without adapting them to the context of their project.
 
-### Unjustified use
+### 3. Unjustified use
 ```
 If all you have is a hammer, everything looks like a nail.
 ```
