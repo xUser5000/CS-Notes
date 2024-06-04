@@ -51,6 +51,7 @@ If all you have is a hammer, everything looks like a nail.
 		- [[Abstract Factory Pattern]]
 		- [[Singleton Pattern]]
 	- **Structural patterns** explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
+		- [[Adapter Pattern]]
 	- **Behavioral patterns** take care of effective communication and the assignment of responsibilities between objects.
 
 # Sources
