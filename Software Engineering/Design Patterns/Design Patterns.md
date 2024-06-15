@@ -54,6 +54,7 @@ If all you have is a hammer, everything looks like a nail.
 		- [[Adapter Pattern]]
 		- [[Decorator Pattern]]
 		- [[Facade Pattern]]
+		- [[Proxy Pattern]]
 	- **Behavioral patterns** take care of effective communication and the assignment of responsibilities between objects.
 
 # Sources
