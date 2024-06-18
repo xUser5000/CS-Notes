@@ -57,6 +57,7 @@ If all you have is a hammer, everything looks like a nail.
 		- [[Proxy Pattern]]
 		- [[Composite Pattern]]
 	- **Behavioral patterns** take care of effective communication and the assignment of responsibilities between objects.
+		- [[Strategy Pattern]]
 
 # Sources
 - [Refactoring Guru - What's a design pattern](https://refactoring.guru/design-patterns/what-is-pattern)
