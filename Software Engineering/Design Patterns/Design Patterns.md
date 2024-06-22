@@ -60,6 +60,7 @@ If all you have is a hammer, everything looks like a nail.
 		- [[Strategy Pattern]]
 		- [[Observer Pattern]]
 		- [[Command Pattern]]
+		- [[Iterator Pattern]]
 
 # Sources
 - [Refactoring Guru - What's a design pattern](https://refactoring.guru/design-patterns/what-is-pattern)
