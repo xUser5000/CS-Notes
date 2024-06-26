@@ -1,8 +1,18 @@
 # Explanation
 - *Computer Network*: collection of autonomous computers interconnected by a single technology.
 	- Two computers are interconnected if they are able to exchange information.
-- *Internet*: most well-known example of a network of networks.
-- *VPN (Virtual Private Network)*: networks that are used to join the individual networks at different sites into once extended network.
+- *VPN (Virtual Private Network)*: networks that are used to join the individual networks at different sites into one extended network.
+
+# Topics
+- [[Network Hardware]]
+- [[Network Software]]
+- [[The Internet]]
+- Network Layers:
+	- [[Physical Layer]]
+	- [[Data Link Layer]]
+	- [[Network Layer]]
+	- [[Transport Layer]]
+	- [[Application Layer]]
 
 # FAQ
 - What's the difference between a computer network and a distributed system?
@@ -11,4 +21,4 @@
 	- In a computer network, users are exposed to the actual machines, without any attempt by the system to make them act in a coherent way.
 
 # Sources
-- Andrew S. Tanenbaum's Computer Networks - Section 1.1
+- Andrew S. Tanenbaum's "Computer Networks" - Section 1.1
