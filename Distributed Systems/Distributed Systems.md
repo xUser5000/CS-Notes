@@ -14,6 +14,7 @@
 
 ## Papers
 - [[MapReduce]]
+- [[Google File System]]
 
 # Sources
 - [MIT 6.824 - Lecture 1](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB&index=1&pp=iAQB)
