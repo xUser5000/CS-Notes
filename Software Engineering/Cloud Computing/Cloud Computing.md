@@ -1,2 +1,2 @@
 # Topics
-- [[SSH]]
+- [[SSH (Secure Shell)]]
