@@ -1,5 +1,11 @@
 # Topics
 - Backend Communication Design Patterns:
 	- [[Request - Response]]
+	- Asynchronous Communication
+	- Pushing
+	- Short Polling
+	- Long Polling
+	- Server Sent Events
+	- Pub/Sub
 - [[OAuth and OpenID Connect]]
 - [[WebSockets]]
