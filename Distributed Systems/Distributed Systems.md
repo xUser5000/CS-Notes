@@ -1,5 +1,5 @@
 # Explanation
-- *Distributed System*: A collection of independent computers that appear to the users of the system as a single computer.\
+- *Distributed System*: A collection of independent computers that appear to the users of the system as a single computer.
 
 ## Why do people build distributed systems?
 - to increase capacity via parallelism,

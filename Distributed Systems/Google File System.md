@@ -79,6 +79,24 @@
 	- Using a log allows us to update the master state simply, reliably, and without risking inconsistencies in the event of a master crash.
 - The master does not store chunk location information persistently. Instead, it asks each chunkserver about its chunks at master startup and whenever a chunkserver joins the cluster.
 
+#### In-Memory Data Structures
+- Since metadata is stored in memory, master operations are fast.
+	- Therefore, It is easy and efficient for the master to periodically scan through its entire state in the background.
+	- This periodic scanning is used to implement chunk garbage collection, re-replication in the presence of chunkserver failures, and chunk migration to balance load and disk space usage across chunkservers.
+- One potential concern for this memory-only approach is that the number of chunks and hence the capacity of the whole system is limited by how much memory the master has.
+	- This is not a serious limitation in practice because the master maintains less than 64 bytes of metadata for each 64 MB chunk.
+
+#### Chunk Locations
+- The master does not keep a persistent record of which chunkservers have a replica of a given chunk.
+	- It simply polls chunkservers for that information at startup.
+	- The master can keep itself up-to-date thereafter because it controls all chunk placement and monitors chunkserver status with regular HeartBeat messages.
+- This eliminates the problem of keeping the master and chunkservers in sync as chunkservers join and leave the cluster, change names, fail, restart, and so on.
+
+#### Operation Log
+- The operation log contains a historical record of critical metadata changes.
+- It is central to GFS. Not only is it the only persistent record of metadata, but it also serves as a logical time line that defines the order of concurrent operations. 
+- Files and chunks, as well as their versions are all uniquely and eternally identified by the logical times at which they were created.
+
 ## System Interactions
 // TODO
 
