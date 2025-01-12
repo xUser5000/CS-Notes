@@ -12,6 +12,9 @@
 - They must cope with partial failures.
 - It's tricky to realize performance potential.
 
+## Concepts
+- [[Replication]]
+
 ## Papers
 - [[MapReduce]]
 - [[Google File System]]
