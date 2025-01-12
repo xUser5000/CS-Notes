@@ -14,6 +14,7 @@
 
 ## Concepts
 - [[Replication]]
+- [[Linearizability]]
 
 ## Papers
 - [[MapReduce]]
