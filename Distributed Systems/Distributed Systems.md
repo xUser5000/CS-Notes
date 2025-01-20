@@ -14,6 +14,7 @@
 
 ## Concepts
 - [[Replication]]
+	- [[Chain Replication]]
 - [[Linearizability]]
 
 ## Papers

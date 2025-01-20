@@ -20,7 +20,7 @@
 - Often generates less network traffic because operations are often small compared to state but it's complex to get right.
 
 ## Replication Levels
-- **Application State**: e.g., database tables.
+- **Application State**: e.g., database tables. ^518c94
 	- Can be efficient; primary only sends high-level operations to backup.
 	- The downside is application code (server) must understand fault tolerance, to e.g. forward operations stream.
 	- [[Google File System|GFS]] works this way.
