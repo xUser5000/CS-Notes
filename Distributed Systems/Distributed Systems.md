@@ -16,6 +16,8 @@
 - [[Replication]]
 	- [[Chain Replication]]
 - [[Linearizability]]
+- [[Consistent Hashing]]
+- [[Distributed Databases]]
 
 ## Papers
 - [[MapReduce]]
