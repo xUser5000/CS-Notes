@@ -39,7 +39,7 @@
 	- The configuration manager is responsible for choosing the head, chain, and tail of the system.
 	- Servers and clients must obey the configuration manager, or stop operating, regardless of which nodes they think are alive or dead.
 - A **configuration manager** is a common pattern for distributed systems.
-	- It is a core part of systems such as [[Google File System]] and VMware-FT.
+	- It is a core part of systems such as [[The Google File System]] and VMware-FT.
 	- Typically, Paxos, Raft, or ZooKeeper are used as the configuration service.
 
 ## Addressing Limitations

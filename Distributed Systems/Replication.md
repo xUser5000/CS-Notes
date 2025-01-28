@@ -23,7 +23,7 @@
 - **Application State**: e.g., database tables. ^518c94
 	- Can be efficient; primary only sends high-level operations to backup.
 	- The downside is application code (server) must understand fault tolerance, to e.g. forward operations stream.
-	- [[Google File System|GFS]] works this way.
+	- [[The Google File System|GFS]] works this way.
 - **Machine level**: e.g. registers and RAM content
 	- Might allow us to replicate any existing server without modifications.
 	- Downsides:
