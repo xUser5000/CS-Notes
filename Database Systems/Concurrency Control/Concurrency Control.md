@@ -1,5 +1,5 @@
 # Explanation
-- *Transaction*: execution of one or more operations (e.g, SQL queries) on a shared database to perform some higher level function.
+- *Transaction*: execution of one or more operations (e.g, SQL queries) on a shared database to perform some higher level function. ^dae2be
 	- Basic unit of change in DBMS.
 	- Must be #atomic.
 - Transaction starts with the BEGIN command and ends with either COMMIT or ABORT.

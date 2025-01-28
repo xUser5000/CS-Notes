@@ -3,7 +3,7 @@
 	- that matches real-time (for non-overlapping ops), and
 	- in which each read sees the value from the write preceding it in the order.
 - *Execution History*: a record of client operations, each with arguments, return value, time of start, time completed.
-- *Strong Consistency*: when a distributed system behaves the same way that a system with only one node would behave.
+- *Strong Consistency*: when a distributed system behaves the same way that a system with only one node would behave. ^7f4541
 	- The term is often used interchangeably with Linearizability.
 
 ## Notes

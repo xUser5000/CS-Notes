@@ -17,6 +17,7 @@
 	- Primary/Backup Replication
 	- [[Chain Replication]]
 - [[Linearizability]]
+- [[CAP Theorem]]
 - [[Consistent Hashing]]
 - [[Distributed Databases]]
 
