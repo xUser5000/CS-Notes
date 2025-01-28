@@ -12,7 +12,7 @@
 - They must cope with partial failures.
 - It's tricky to realize performance potential.
 
-## Concepts
+## Topics
 - [[Replication]]
 	- Primary/Backup Replication
 	- [[Chain Replication]]
