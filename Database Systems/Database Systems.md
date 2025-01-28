@@ -1,6 +1,6 @@
 # Explanation
 - *Database*: organized collection of inter-related data that models some aspect of the real world.
-- *Database Management System*: software that allows applications to store and analyze information in a database.
+- *Database Management System*: software that allows applications to store and analyze information in a database. ^1ec6f9
 	- Designed to allow definition, creation, querying, updating, and administration, of databases in accordance with some data model.
 - *Data Model*: collection of concepts for describing the data in a database. Examples:
 	- [[Relational Model]] (most common),
@@ -22,6 +22,7 @@
 - [[Query Planning & Optimization]]
 - [[Concurrency Control]]
 - [[Crash Recovery]]
+- [[Distributed Databases]]
 
 # FAQ
 - Why do we need a database management system? Why not just store data in a flat CSV file? (AKA Strawman system)? Because there are many issues with this approach:
