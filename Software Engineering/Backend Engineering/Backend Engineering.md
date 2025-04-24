@@ -9,3 +9,6 @@
 	- Pub/Sub
 - [[OAuth and OpenID Connect]]
 - [[WebSockets]]
+- Proxies
+	- [[Forward Proxies]]
+	- [[Reverse Proxies]]
