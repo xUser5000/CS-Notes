@@ -1,10 +1,10 @@
 # Explanation
-- *Timestamp Ordering*: an #optimistic class of concurrency control protocols where the DBMS uses timestamps to determine the serializability order of transactions.
+- *Timestamp Ordering*: an #optimistic class of concurrency control protocols where the DBMS uses timestamps to determine the serializability order of [[Concurrency Control#^68a44d|transactions]].
 - Each transaction $T_i$ is assigned a **unique** fixed timestamp $TS(T_i)$ that is monotonically increasing.
 - If $TS(T_i) \lt TS(T_j)$, then the DBMS must ensure that the execution schedule is equivalent to the serial schedule where $T_i$ appears before $T_j$.
 
 ## Mechanism
-- Every database object X is tagged with timestamp of the last transaction that successfully performed a read ($R-TS(X)$) or write ($W-TS(X)$) on that object.
+- Every database object $X$ is tagged with timestamp of the last transaction that successfully performed a read ($R-TS(X)$) or write ($W-TS(X)$) on that object.
 - If a transaction tries to access an object in a way that violates the timestamp ordering, the transaction is aborted and restarted.
 
 ### Read Operations
