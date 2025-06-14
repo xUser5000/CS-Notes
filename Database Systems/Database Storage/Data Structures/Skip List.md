@@ -6,6 +6,9 @@
 - The bottom level contains **all entries**, while each higher level links a **subset** (e.g., every 2nd, 4th key).
 - Avoids the need for global rebalancing, unlike tree-based structures.
 
+## Illustration
+![[Skip List.png]]
+
 ## Operations
 
 ### Find(x)

@@ -4,6 +4,9 @@
 - Each term maps to a **posting list**, which is a list of record IDs (or tuple pointers).
 - Originally known as a **concordance** in early literature.
 
+# Illustration
+![[Inverted Index.png]]
+
 ## Operations
 
 ### Insert(term, record_id)

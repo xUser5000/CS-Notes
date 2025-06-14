@@ -4,6 +4,9 @@
 - The structure is shaped by the key space, not by insertion order.
 - Commonly used for **exact-match** and **prefix-based lookups**.
 
+## Illustration
+![[Trie.png]]
+
 ## Operations
 
 ### Insert(x)
@@ -39,10 +42,6 @@
 - Reduces the number of nodes and increases cache-friendliness.
 - May introduce **false positives** — the final match must be validated against the original key.
 - Used in systems where space and cache locality are prioritized.
-
-## Related
-- [[Database Systems/Database Storage/Data Structures/B+Tree]]
-- [[Database Systems/Database Storage/Data Structures/Skip List]]
 
 # Sources
 - CMU 15-445/645 (Fall 2024) — "Lecture 09: Indexes II"
