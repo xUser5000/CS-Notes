@@ -1,4 +1,6 @@
 # Resources
+- Extends [[Apache Lucene]]
+
 - [ ] [Elasticsearch Deep Dive w/ a Ex-Meta Senior Manager](https://www.youtube.com/watch?v=PuZvF2EyfBM)
 - [ ] [Elasticsearch Under the Hood - Philipp Krenn - NDC Copenhagen 2022](https://www.youtube.com/watch?v=cpsgAQFkhCE)
 - [ ] [ElasticSearch from the bottom up](https://www.youtube.com/watch?v=PpX7J-G2PEo&pp=ygUaYXBhY2hlIGx1Y2VuZSBhcmNoaXRlY3R1cmU%3D)

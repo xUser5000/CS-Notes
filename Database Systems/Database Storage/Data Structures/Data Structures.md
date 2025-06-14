@@ -8,11 +8,17 @@
 	- The table's contents and the index are always in sync.
 	- More indexes makes queries run faster but they use storage and have maintenance overhead.
 - *Clustered Index*: index whose order of the rows in the data pages corresponds to the order of the rows in the index. [2]
-	- Only one clustered index can exits for any particular table.
+	- Only one clustered index can exist for any particular table.
 
 # Topics
 - [[Hash Table]]
 - [[B+ Tree]]
+- [[Bloom Filter]]
+- [[Skip List]]
+- [[Trie]]
+- [[Inverted Indexes]]
+- [[Vector Indexes]]
+
 - [[Database Systems/Database Storage/Data Structures/Concurrency|Concurrency]]
 
 # Source
