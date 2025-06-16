@@ -1,6 +1,7 @@
 # Topics
 - [[DB Cluster, DB, and Tables]]
-
+- [[Process Architecture]]
+- [[Memory Architecture]]
 
 # Resources
 - [PostgreSQL 14 Internals by Egor Rogov](https://postgrespro.com/community/books/internals)
