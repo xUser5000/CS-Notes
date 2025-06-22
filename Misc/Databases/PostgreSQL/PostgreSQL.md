@@ -1,5 +1,6 @@
 # Topics
 - [[PostgreSQL DB Cluster, DB, and Tables]]
+- [[PostgreSQL Tuple Structure]]
 - PostgreSQL Architecture
 	- [[PostgreSQL Process Architecture]]
 	- [[PostgreSQL Memory Architecture]]
