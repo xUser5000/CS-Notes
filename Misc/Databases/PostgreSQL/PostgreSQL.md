@@ -1,8 +1,10 @@
 # Topics
-- [[DB Cluster, DB, and Tables]]
-- [[Process Architecture]]
-- [[Memory Architecture]]
-- [[Misc/Databases/PostgreSQL/Query Planning & Optimization]]
+- [[PostgreSQL DB Cluster, DB, and Tables]]
+- PostgreSQL Architecture
+	- [[PostgreSQL Process Architecture]]
+	- [[PostgreSQL Memory Architecture]]
+- [[PostgreSQL Query Planning & Optimization]]
+- [[PostgreSQL Concurrency Control]]
 
 # Resources
 - [PostgreSQL 14 Internals by Egor Rogov](https://postgrespro.com/community/books/internals)

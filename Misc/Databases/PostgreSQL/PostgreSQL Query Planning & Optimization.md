@@ -1,4 +1,5 @@
 # Explanation
+- Extends [[Database Systems/Query Planning & Optimization|Query Planning & Optimization]]
 - The query planner receives a query tree from the rewriter and generates a (query) plan tree that can be processed by the executor most effectively.
 - The planner in PostgreSQL is based on pure [[Database Systems/Query Planning & Optimization#Cost-based Optimization|cost-based optimization]]. It does not support [[Database Systems/Query Planning & Optimization#Rule-based Optimization|rule-based optimization]] or hints.
 - This planner is the most complex subsystem in PostgreSQL.
