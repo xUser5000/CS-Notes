@@ -10,6 +10,7 @@
 
 ## Topics
 - [[PostgreSQL Transactions]]
+- [[PostgreSQL Inserting, Deleting, and Updating Tuples]]
 
 # Sources
 - [InterDB - 5. Concurrency Control](https://www.interdb.jp/pg/pgsql05.html)
