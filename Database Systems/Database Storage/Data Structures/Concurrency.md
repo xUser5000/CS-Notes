@@ -4,19 +4,16 @@
 	- hide [[Disks]] IO stalls.
 - *Concurrency Control Protocol*: the method used by the DBMS to ensure correct results for concurrency operations on a shared object.
 
-## Lock
-- **Definition**: higher-level primitive that protects the contents of a database (e.g, tuples, tables, databases) from other transactions.
-- **Held for** the duration of the transaction.
-- **Exposed to the user?** Yes.
-- **Supports rollback?** Yes
+## Locks vs Latches
 
-## Latch
-- **Definition**: low-level protection primitive used for critical sections in the DBMS internal data structures from other threads.
-- **Held for** the operation being made.
-- **Exposed to the user?** No.
-- **Supports rollback?** No.
+|                          | **Lock**                                                                                                                  | **Latch**                                                                                                          |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Definition**           | higher-level primitive that protects the contents of a database (e.g, tuples, tables, databases) from other transactions. | low-level protection primitive used for critical sections in the DBMS internal data structures from other threads. |
+| **Held for**             | the duration of the transaction.                                                                                          | the operation being made.                                                                                          |
+| **Exposed to the user?** | Yes                                                                                                                       | No                                                                                                                 |
+| **Supports rollback?**   | Yes                                                                                                                       | No                                                                                                                 |
 
-### Latch Implementation
+## Latch Implementation
 
 #### Blocking OS Mutex
 - **Description**: see [[Lock#^565747]]

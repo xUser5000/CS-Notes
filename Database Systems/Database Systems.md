@@ -19,7 +19,7 @@
 	- [[Joins]]
 - [[Query Execution]]
 - [[Concurrent Query Execution]]
-- [[Query Planning & Optimization]]
+- [[Database Systems/Query Planning & Optimization]]
 - [[Concurrency Control]]
 - [[Crash Recovery]]
 - [[Distributed Databases]]
