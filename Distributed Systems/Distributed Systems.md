@@ -16,6 +16,7 @@
 - [[Replication]]
 	- Primary/Backup Replication
 	- [[Chain Replication]]
+- [[Partitioning]]
 - [[Linearizability]]
 - [[CAP Theorem]]
 - [[Consistent Hashing]]
