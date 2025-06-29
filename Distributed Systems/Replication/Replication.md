@@ -21,6 +21,7 @@
 - [[Synchronous vs Asynchronous Replication]]
 - [[Handling Node Outages in Replication]]
 - [[Implementation of Replication Logs]]
+- [[Replication Quorums]]
 - [[Replicated State Machine]]
 - [[Replication Levels]]
 
