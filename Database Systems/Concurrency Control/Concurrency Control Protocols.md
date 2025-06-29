@@ -6,7 +6,7 @@
 - *Execution Schedule*: the order in which the DBMS executes operations.
 - *Serial Schedule*: a schedule that doesn't interleave the actions of different transactions. ^5d741a
 - *Equivalent Schedules*: for any database state, if the effect of executing the first schedule is identical to the effects of executing the second schedule, the two schedules are equivalent.
-- *Serializable Schedule*: a schedule which is equivalent to any serial execution of the transactions.
+- *Serializable Schedule*: a schedule which is equivalent to any serial execution of the transactions. ^ec3fa1
 	- Different serial executions can produce different results, but all are considered correct.
 - *Recoverable Schedule*: a schedule where transactions commit only after all transactions whose changes they read, commit. ^11d00b
 - The goal of a concurrency control protocol is to generate an execution schedule that is equivalent to some serial schedule.
