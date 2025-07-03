@@ -11,6 +11,8 @@
 - They have many concurrent parts.
 - They must cope with partial failures.
 - It's tricky to realize performance potential.
+- Unreliable networks.
+- [[Unreliable Clocks]]
 
 ## Topics
 - [[Replication]]
