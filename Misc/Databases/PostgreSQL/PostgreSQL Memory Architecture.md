@@ -4,7 +4,7 @@
 	- Shared memory area – used by all processes of a PostgreSQL server.
 
 ## Local Memory Area
-- Each [[Process Architecture#Backend Process|backend process]] allocates a local memory area for query processing.
+- Each [[PostgreSQL Process Architecture#Backend Process|backend process]] allocates a local memory area for query processing.
 - The area is divided into several sub-areas, whose sizes are either fixed or variable:
 
 | sub-area             | description                                                                                                                                                                                                                        |
@@ -14,7 +14,7 @@
 | temp_buffers         | The executor uses this area for storing temporary tables.                                                                                                                                                                          |
 
 ## Shared Memory Area
-A shared memory area is allocated by a [[Process Architecture#Server Process|PostgreSQL server]] when it starts up.
+A shared memory area is allocated by a [[PostgreSQL Process Architecture#Server Process|PostgreSQL server]] when it starts up.
 This area is also divided into several fixed-sized sub-areas:
 
 | sub-area           | description                                                                                                                                                                                                                                                                                                           |

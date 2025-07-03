@@ -56,6 +56,7 @@
 
 ### Implementation
 - [[Two-Phase Locking]]
+- [[Serializable Snapshot Isolation (SSI)]]
 
 ### Potential anomalies
 - None
