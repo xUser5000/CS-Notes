@@ -13,6 +13,7 @@
 - It's tricky to realize performance potential.
 - Unreliable networks.
 - [[Unreliable Clocks]]
+- [[Byzantine Faults]]
 
 ## Topics
 - [[Replication]]
