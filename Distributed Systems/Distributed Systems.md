@@ -20,10 +20,13 @@
 	- Primary/Backup Replication
 	- [[Chain Replication]]
 - [[Partitioning]]
-- [[Linearizability]]
+- [[Consistency Guarantees]]
+	- [[Linearizability]]
+	- [[Eventual Consistency]]
 - [[CAP Theorem]]
 - [[Consistent Hashing]]
 - [[Distributed Databases]]
+	- [[Two-Phase Commit]]
 
 ## Papers
 - [[MapReduce]]
