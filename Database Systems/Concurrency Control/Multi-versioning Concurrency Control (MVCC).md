@@ -67,7 +67,7 @@
 - This approach requires a background process for compaction and garbage collection.
 
 ## Advantages [1]
-- Writers do not block writers and readers do not block readers.
+- Writers do not block readers and readers do not block writers.
 - Read-only transactions can read a consistent snapshot of the database without using locks of any kind.
 - Multi-versioned DBMSs can easily support time-travel queries, which are queries based on the state of the database at some other point in time.
 

@@ -16,6 +16,7 @@
 		- [[Timestamp Ordering]]
 		- [[Optimistic Concurrency Control (OCC)]]
 		- [[Multi-versioning Concurrency Control (MVCC)]]
+		- [[Serializable Snapshot Isolation (SSI)]]
 
 # Sources
 1. CMU 15-445 Lecture 15 - "Concurrency Control Theory"
