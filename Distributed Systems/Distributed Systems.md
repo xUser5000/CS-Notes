@@ -20,11 +20,12 @@
 	- Primary/Backup Replication
 	- [[Chain Replication]]
 - [[Partitioning]]
+	- [[Consistent Hashing]]
 - [[Consistency Guarantees]]
 	- [[Linearizability]]
 	- [[Eventual Consistency]]
 - [[CAP Theorem]]
-- [[Consistent Hashing]]
+- [[Consensus]]
 - [[Distributed Databases]]
 	- [[Two-Phase Commit]]
 
