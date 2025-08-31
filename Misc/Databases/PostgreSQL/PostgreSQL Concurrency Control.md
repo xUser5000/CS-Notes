@@ -9,6 +9,7 @@
 - When reading items, PostgreSQL selects the appropriate version of an item in response to an individual transaction by applying **visibility check rules**.
 
 ## Topics
+- [[PostgreSQL Visibility Maps]]
 - [[PostgreSQL Transactions]]
 - [[PostgreSQL Inserting, Deleting, and Updating Tuples]]
 
