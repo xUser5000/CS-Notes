@@ -6,6 +6,7 @@
 - PostgreSQL Architecture
 	- [[PostgreSQL Process Architecture]]
 	- [[PostgreSQL Memory Architecture]]
+- [[PostgreSQL Index-Only Scans]]
 - [[PostgreSQL Query Planning & Optimization]]
 - [[PostgreSQL Concurrency Control]]
 
