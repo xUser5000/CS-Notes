@@ -23,7 +23,7 @@
 	- *Cached Records*: records that may be out of date.
 
 ### Case 2
-- If the domain being sought is remote (such as when `flits.cs.vu.nl` wants to find the [[IP (Internet Protocol)]] address of `robot.cs.washington.edu`) and there is cached info about the domain available locally, the name server begins a **remote query**.
+- If the domain being sought is remote (such as when `flits.cs.vu.nl` wants to find the [[Internet Protocol (IP)]] address of `robot.cs.washington.edu`) and there is cached info about the domain available locally, the name server begins a **remote query**.
 	1. The query is sent to the local name server.
 	2. The local name server asks the **root name servers**.
 		- The root name servers have information about each top-level domains.

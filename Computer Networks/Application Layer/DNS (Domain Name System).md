@@ -1,6 +1,6 @@
 # Explanation
 - Problems:
-	- [[IP (Internet Protocol)]] addresses are hard for people to remember.
+	- [[Internet Protocol (IP)]] addresses are hard for people to remember.
 	- Browsing a company’s Web pages from a particular IP address means that if the company moves the Web server to a different machine with a different IP address, everyone needs to be told the new IP address.
 - We need to introduce a high-level, readable names to decouple machine names from machine addresses.
 

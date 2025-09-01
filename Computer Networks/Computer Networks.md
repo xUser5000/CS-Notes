@@ -6,6 +6,8 @@
 # Topics
 - [[Network Hardware]]
 - [[Network Software]]
+	- [[OSI Reference Model]]
+	- [[TCP-IP Reference Model]]
 - [[The Internet]]
 - Network Layers:
 	- [[Physical Layer]]
@@ -15,7 +17,7 @@
 	- [[Application Layer]]
 
 # FAQ
-- What's the difference between a computer network and a distributed system?
+- What's the difference between a computer network and a [[Distributed Systems|distributed system]]?
 	- *Distributed System*: collection of independent computers that appear to its users as a single coherent system.
 		- It's a software system built on top of a network.
 	- In a computer network, users are exposed to the actual machines, without any attempt by the system to make them act in a coherent way.

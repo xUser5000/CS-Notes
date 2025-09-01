@@ -15,7 +15,6 @@
 
 - ISPs connect their networks to exchange traffic at IXPs (Internet eXchange Points).
 	- *IXP*: a room full of routers, at least one per ISP.
-- 
 
 # Sources
 - Andrew S. Tanenbaum's "Computer Networks" - Section 1.5

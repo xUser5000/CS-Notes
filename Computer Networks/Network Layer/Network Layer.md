@@ -22,7 +22,7 @@
 # Topics
 - [[Routing Algorithms]]
 - [[Computer Networks/Network Layer/Congestion Control|Congestion Control]]
-- [[IP (Internet Protocol)]]
+- [[Internet Protocol (IP)]]
 
 # FAQ
 - What's the difference between connection-less services and connection-oriented ones?

@@ -14,7 +14,7 @@
 ### The Internet Layer
 - The job of the internet layer is to permit hosts to inject packets into any network and have them travel independently to the destination (potentially on a different network).
 - The packets may even arrive in a completely different order than they were sent, in which case it is the job of higher layers to rearrange them, if in-order delivery is desired.
-- The internet layer defines an official packet format and protocol called IP (Internet Protocol).
+- The internet layer defines an official packet format and protocol called [[Internet Protocol (IP)|IP]] (Internet Protocol).
 
 ### The Transport Layer
 - The transport layer is designed to allow peer entities on the source and destination hosts to carry on a conversation.

@@ -1,6 +1,6 @@
 # Explanation
 - *ICANN*: a nonprofit corporation called that manages network numbers to avoid conflicts.
-- Every host and router on the Internet has an [[IP (Internet Protocol)|IP]] address that can be used in the Source address and Destination address fields of IP packets.
+- Every host and router on the Internet has an [[Internet Protocol (IP)|IP]] address that can be used in the Source address and Destination address fields of IP packets.
 - An IP address does not refer to a host, but rather a network interface.
 	- If a host is on two networks, it must have two IP addresses.
 	- In practice, most hosts are on one network and thus have one IP address.
@@ -55,7 +55,7 @@
 	- 10.0.0.0 - 10.255.255.255/8 (16,777,216 hosts)
 	- 172.16.0.0 – 172.31.255.255/12 (1,048,576 hosts)
 	- 192.168.0.0 – 192.168.255.255/16 (65,536 hosts)
-- Networks may use the private addresses internally internally as they wish but no packets containing these addresses may appear on the internet.
+- Networks may use the private addresses internally as they wish but no packets containing these addresses may appear on the internet.
 
 ### Mechanism
 - Within the customer premises, every machine has a unique address of the form 10.x.y.z.

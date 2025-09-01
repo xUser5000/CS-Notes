@@ -7,7 +7,6 @@
 	- The function of each layer should be chosen with an eye toward defining internationally standardized protocols.
 	-  The layer boundaries should be chosen to minimize the information flow across the interfaces.
 	- The number of layers should be large enough that distinct functions need not be thrown together in the same layer out of necessity and small enough that the architecture does not become unwieldy.
-- 
 
 ## Illustration
 ![[OSI Reference Model.png]]
